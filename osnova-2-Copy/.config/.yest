@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+   <openedEditor>DecisionTableImpl:11213/select leave request/select leave request</openedEditor>
+   <openedEditor>TestScenarioImpl:leave accepted</openedEditor>
+   <openedEditor>TestScenarioImpl:trn/On time short-term (1)</openedEditor>
+   <openedEditor>WorkflowImpl:11213</openedEditor>
+   <openedEditor>TestScenarioImpl:missed deadline1</openedEditor>
+   <activeEditor>TestScenarioImpl:missed deadline1</activeEditor>
+   <editorConfigurations>
+      <scenario assistant_orientation="256"
+                resource="TestScenarioImpl:trn/On time short-term">
+         <assistant_sash_weights>
+            <weight>50</weight>
+            <weight>50</weight>
+         </assistant_sash_weights>
+         <right_panel_layer>WORKFLOW_LAYER</right_panel_layer>
+      </scenario>
+      <table resource="DecisionTableImpl:11213/request is valid?/request is valid?">
+         <columnWidths>
+            <width>100</width>
+            <width>250</width>
+            <width>253</width>
+         </columnWidths>
+         <hiddenKinds/>
+      </table>
+      <table resource="DecisionTableImpl:11213/hr validation/hr validation">
+         <columnWidths>
+            <width>250</width>
+         </columnWidths>
+         <hiddenKinds/>
+      </table>
+      <table resource="DecisionTableImpl:11213/hr valid?/hr valid?">
+         <columnWidths>
+            <width>100</width>
+            <width>100</width>
+            <width>760</width>
+            <width>150</width>
+            <width>150</width>
+         </columnWidths>
+         <hiddenKinds/>
+      </table>
+      <finder inputText="will_remain">
+         <categories>
+            <category>model</category>
+            <category>dataDictionary</category>
+            <category>dataSetCatalog</category>
+            <category>files</category>
+            <category>workflow</category>
+            <category>tables</category>
+         </categories>
+         <filters/>
+      </finder>
+      <scenario assistant_orientation="256" resource="TestScenarioImpl:leave rejected">
+         <assistant_sash_weights>
+            <weight>100</weight>
+            <weight>0</weight>
+         </assistant_sash_weights>
+         <right_panel_layer>ADDITIONAL_INFO_LAYER</right_panel_layer>
+      </scenario>
+      <dataSetCollection resource="DataSetCollectionImpl:#catalog/Data set for notice period">
+         <columnWidths>
+            <width>100</width>
+            <width>100</width>
+            <width>100</width>
+         </columnWidths>
+      </dataSetCollection>
+      <testCampaign resource="TestCampaignImpl:TestCampaign">
+         <dataSetCombinationSorting scenarioToSortPolicy="OnlyCurrentScenario"/>
+      </testCampaign>
+      <generation generationKind="COVERAGE_FIRST"/>
+      <dataSetCollection resource="DataSetCollectionImpl:#catalog/Data set collection for employee">
+         <columnWidths>
+            <width>100</width>
+            <width>100</width>
+            <width>100</width>
+            <width>100</width>
+            <width>100</width>
+         </columnWidths>
+      </dataSetCollection>
+      <table resource="DecisionTableImpl:11213/start leave request/start leave request">
+         <columnWidths>
+            <width>100</width>
+            <width>100</width>
+            <width>758</width>
+            <width>150</width>
+            <width>150</width>
+         </columnWidths>
+         <hiddenKinds/>
+      </table>
+      <table resource="DecisionTableImpl:11213/select leave request/select leave request">
+         <columnWidths>
+            <width>634</width>
+         </columnWidths>
+         <hiddenKinds/>
+      </table>
+      <scenario assistant_orientation="256" resource="TestScenarioImpl:leave accepted">
+         <assistant_sash_weights>
+            <weight>100</weight>
+            <weight>0</weight>
+         </assistant_sash_weights>
+         <right_panel_layer>WORKFLOW_LAYER</right_panel_layer>
+      </scenario>
+      <scenario assistant_orientation="256"
+                resource="TestScenarioImpl:trn/On time short-term (1)">
+         <assistant_sash_weights>
+            <weight>500</weight>
+            <weight>500</weight>
+         </assistant_sash_weights>
+         <right_panel_layer>WORKFLOW_LAYER</right_panel_layer>
+      </scenario>
+      <workflow resource="WorkflowImpl:11213"
+                viewLocationX="0"
+                viewLocationY="0"
+                zoom="1.0"/>
+      <scenario assistant_orientation="256"
+                resource="TestScenarioImpl:missed deadline1">
+         <assistant_sash_weights>
+            <weight>505</weight>
+            <weight>494</weight>
+         </assistant_sash_weights>
+         <right_panel_layer>WORKFLOW_LAYER</right_panel_layer>
+      </scenario>
+   </editorConfigurations>
+</project>
