@@ -1547,7 +1547,7 @@
         <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
         <values value="iPhone" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
         <values value="27" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
       <dataSets name="Hair dryer" id="423954ae559ce6cc3d00773b0346a656-1221169658">
         <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
@@ -1591,6 +1591,13 @@
         <values value="24" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
         <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
+      <dataSets name="Samsung" id="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW">
+        <values value="Between 6 and 24 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="Samsung" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="81" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
     </dataSetCollections>
     <dataSetCollections name="Customer Set" id="191d1d4ccd4a46666f8480f459043a4a">
       <dataSets name="John Smith" id="191d1d4ccd4a46666f8480f459043a4a-279862446">
@@ -1632,8 +1639,14 @@
       <dataSets name="Derek" id="bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex">
         <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
         <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="Derek Wereck" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="Derek" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
         <values value="12/12/1985" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="Alibaba" id="cUdtP2TfXyjKJcAgmpnmZZFyXS4jRq3R">
+        <values value="Higher than 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Alibaba" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="01/01/1900" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
     </dataSetCollections>
     <dataSetCollections name="Browsers" id="b26caef71b08c9fb89a2a953c93646d9">
