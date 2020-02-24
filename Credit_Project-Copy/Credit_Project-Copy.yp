@@ -1553,6 +1553,35 @@
       </expectedResult>
     </lowLevelSteps>
   </testElements>
+  <testElements xsi:type="yest:TestScenario" id="kQFmnjYHRLBNfI8jkqNl7KyaliPemgkj" name="Invalid Retired" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="PMKUple1KiKU5G0DRtq55K23kF0lzouF" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
+        <value definition="Higher than 60" id="OU63HSdLuvBTf3w92Mnk2Aun2NXXDwQ4"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
+        <value definition="Retired" id="uQGxZloeVBPI1JNp99YnJwtrkTuOVU4O"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
+        <value definition="Invalid" id="wyeydJJ73o1bLpMeGUUH7JtNEtF1qHxg"/>
+      </stepFieldValues>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="kISXt0zqSCaypGuHp9mQd8VIq3kpPZj7" name="Invalid Credit phone1" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="m0eS1vfEOqb0hLHl1U7etOZ4euxKcJ7L" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="1" id="apxLFwoXQbcaH00rMRBRF92SggES7KVI"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Any" id="pVIbqkCOjXQHs0asr81MFn8QYuoP5mZD"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Phone" id="yLQxKUnJ0XL5AmBIAqdvav8UyOuehMfR"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Invalid" id="3mDW9kiwYRLPRYwUTg9MaAjVxIKtNJ1L"/>
+      </stepFieldValues>
+    </testActions>
+  </testElements>
   <dataDictionary name="#dictionary" id="PGyUuRfbpbXadCAoojd6F093I6AynzEU">
     <datas name="Occupation" id="7a5c364ea5252f8bfbd6cbd7c9765550"/>
     <datas name="CustomerValidity" id="4ef58664c137a6594a06581a18afff69"/>
