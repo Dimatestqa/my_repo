@@ -1605,7 +1605,7 @@
         <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
         <values value="Home cinema" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
         <values value="24" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
     </dataSetCollections>
     <dataSetCollections name="Customer Set" id="191d1d4ccd4a46666f8480f459043a4a">
