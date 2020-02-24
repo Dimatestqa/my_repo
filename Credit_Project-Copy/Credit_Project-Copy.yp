@@ -1437,7 +1437,7 @@
         <value definition="1" id="cEyMzY7qpsO83vBgUpTAO6jqMWWPuzUN"/>
       </stepFieldValues>
       <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
-        <value definition="Any" id="HiQMEE0f6nZR54Vi56bxozSxbErzpYh1"/>
+        <value definition="Between 6 and 24 months" id="15P4MxE4m4MrX6S9fhlKXNAIc9wmV0eK"/>
       </stepFieldValues>
       <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
         <value definition="Phone" id="nCB7Yy7nSGVSlmaVZgnDa4w7z4WLwGUo"/>
@@ -1446,6 +1446,17 @@
         <value definition="Invalid" id="6cO28J0dEra9rb98LxLwqQXSx4Fiw6Ae"/>
       </stepFieldValues>
     </testActions>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW 191d1d4ccd4a46666f8480f459043a4a-279862446 GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="8ffIviHzp7733PmII52PJu5hpw1DTlsX"/>
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW 191d1d4ccd4a46666f8480f459043a4a-1838005781 GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="lztKQPyvmWGfl2ZaHJkk6vc5SwtsVej1"/>
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW 191d1d4ccd4a46666f8480f459043a4a--65565655 GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="4NUBSqOFekI5fHFBVRUVzaG6AIVSRaTU"/>
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW 191d1d4ccd4a46666f8480f459043a4a-334272752 GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="3Rpj39VoyKWQkulQhpPdESRC2KOMl3k2"/>
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW 191d1d4ccd4a46666f8480f459043a4a--43936440 GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="dBcy6ApSmDEO49sbfRA6tbborgvsLDWD"/>
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW 8nzkvTNr9zZSSrFfozsHWEVU26NMrjEp GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="tyvKrGuAsLPlSy73GGwjs1b5fb8FbMpp"/>
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW xAE0Y5O7c7uLCSBVdoqc8GX6EH7NCvrW GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="lcDZbntHXeYRKMaPtYTuPeGXPzkx3hLJ"/>
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW lQk1id7CH2Tt3DGLC3VLTWzjGAlBTipC GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="dhE4xnTpeCLGtvQpp5vCmvBHVWr7EziJ"/>
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW Mk5ZQMsVnura81o7txYXJemg7vfOtqhr GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="GvR5AotJWuHWWRM0zkqFpxX31MRZGKkn"/>
+    </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="jnbQVMsPV9Pa9rUTPr62W8gQwsCbB7fG" name="Valid Appliance-Invalid Other occupation" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="ihvqQMFisgKWapcaeO2oYvbfeROMW7tT" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
@@ -1608,7 +1619,7 @@
         <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
         <values value="Samsung" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
         <values value="18" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+        <values value="123456/*" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
     </dataSetCollections>
     <dataSetCollections name="Customer Set" id="191d1d4ccd4a46666f8480f459043a4a">
@@ -1682,6 +1693,9 @@
       </dataSets>
       <dataSets name="Edge" id="xYduUsFeraeWmDNax4UOrK0t0JrDkXca">
         <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Опера" id="GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo">
+        <values value="123456/*" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
     </dataSetCollections>
     <dataReferences xsi:type="yest:DesignData" dataName="Duration"/>
