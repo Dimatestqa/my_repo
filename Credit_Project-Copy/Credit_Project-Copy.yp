@@ -9,7 +9,6 @@
         <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368" dataName="Amount"/>
         <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0" dataName="Amount"/>
         <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750" dataName="TypeOfGood"/>
-        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268" dataName="Duration"/>
         <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986" type="SET" dataName="CreditValidity"/>
         <columns xsi:type="yest:OperationColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101"/>
         <columns xsi:type="yest:OutcomeColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974"/>
@@ -20,9 +19,6 @@
         <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-2048725308-575030598--1720195902-2024566832-657432064--2012531614-292738086--2012531614-1330748565-1711037985">
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
             <value xsi:type="yest:StringCell" value="Valid"/>
-          </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
-            <value xsi:type="yest:StringCell" value="Between 6 and 24 months"/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
             <value xsi:type="yest:StringCell" value="&lt; 2000"/>
@@ -58,9 +54,6 @@
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
             <value xsi:type="yest:StringCell" value="Valid"/>
           </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
-            <value xsi:type="yest:StringCell" value="Between 10 and 36 months"/>
-          </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
             <value xsi:type="yest:StringCell" value="&lt; 5000"/>
           </cells>
@@ -94,9 +87,6 @@
         <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--836426953--64926932-2013475488--64932306-2043395758--1168230859-759320560-2013475488-1330748565--2139686396">
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
             <value xsi:type="yest:StringCell" value="Invalid"/>
-          </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
-            <value xsi:type="yest:StringCell" value="Any"/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
             <value xsi:type="yest:StringCell" value=""/>
@@ -138,9 +128,6 @@
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750">
             <value xsi:type="yest:StringCell" value="Phone"/>
           </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
-            <value xsi:type="yest:StringCell" value="Between 6 and 24 months"/>
-          </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
             <value xsi:type="yest:StringCell" value="Invalid"/>
           </cells>
@@ -173,9 +160,6 @@
             <value xsi:type="yest:StringCell" value=""/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750">
-            <value xsi:type="yest:StringCell" value=""/>
-          </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
             <value xsi:type="yest:StringCell" value=""/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
@@ -1452,29 +1436,17 @@
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="iYdsHCUpJvAuIVhsBQY1CBi52yoa15hK" name="Invalid Credit phone" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="QIhzBcCX3lvPDVqPNivvVveNhwXQ8op8" operation="jaP8BYWEApSWu71WWOL2we2K3bTc3dba">
-      <stepFieldValues referencedStepField="YJ8QxYiGPribNg8aAWrDrhiVqFbuUdod">
-        <value definition="1" id="TxkiTZ83luaxCfFzPLTvV1aZQYVW6Y7k"/>
+      <stepFieldValues referencedStepField="bvNsRmsfb5Ir6riiqE2i902hZsILunwF">
+        <value definition="1" id="JhavmI08yUKavuI2yZdLcLKauF6FHHCS"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="zRHpHlm1xC3e5u2YUAZlZND8GNgGJ2h6">
-        <value definition="Any" id="AVRrseWwGbTvH1PImi5DKeyya9PlGXdL"/>
+      <stepFieldValues referencedStepField="D8SDv1eNTfuuFIuB3FaTO1hemygXg3yZ">
+        <value definition="Phone" id="eaKomCSrJdK9cqRaFFdOQIUxyWlBn1ky"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="KBYfcFa6J69lMB5Ov2GxU66lTUOkykTe">
-        <value definition="Phone" id="DoQATYxuBBdjsqps6z7sdWmsYAR9VNhm"/>
-      </stepFieldValues>
-      <stepFieldValues referencedStepField="B5O2tcM9fzZq9yQCPmo8GaYIVQwoqDHo">
-        <value definition="Invalid" id="X2IfOw0pwAUR9TQcjpIpVebNfdEcwM53"/>
+      <stepFieldValues referencedStepField="eSG0nXSVLHq4Giahccrjh4YXstB5Kjq1">
+        <value definition="Invalid" id="hgpe2cv2Mi0tWFo4RFu28KXwj0WYPUWq"/>
       </stepFieldValues>
     </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-279862446" id="0RM1OgjcMSEXnT7WbUMjhbCc0NPOWAzZ"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-1838005781" id="kj5VeC5UbAc4ZqRdFOXIMmoMkkG7maeU"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a--65565655" id="6wLYALkEdf0NEZq1b4iSPrnlnAaVpiEa"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-334272752" id="SJFEi3KWN56UrvZzjrXhxwBq3BNeeFFu"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a--43936440" id="dSA5RhzyE0MnpAWw78sPDlbXLkZAgePY"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 8nzkvTNr9zZSSrFfozsHWEVU26NMrjEp" id="ukPpMY4c2p9T7JjZGG4U24jlT6idBXdr"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex" id="OOWoxFoFenqRkxMDM01QeQDrw69CE7Ho"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 oNNmleKAOmEgco22g801KswW3mwvOz6M" id="Fops3Odx1qCttwKdgjaPwqnVxwf30Xml"/>
-    </dataSetCombinations>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw"/>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="jnbQVMsPV9Pa9rUTPr62W8gQwsCbB7fG" name="Valid Appliance-Invalid Other occupation" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="ihvqQMFisgKWapcaeO2oYvbfeROMW7tT" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
@@ -1574,15 +1546,13 @@
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Check Credit Data:&#xD;&#xA;Amount : "/>
-        <stepElements xsi:type="yest:StepField" id="YJ8QxYiGPribNg8aAWrDrhiVqFbuUdod" dataName="Amount" dataKind="designDataKind"/>
-        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Duration: "/>
-        <stepElements xsi:type="yest:StepField" id="zRHpHlm1xC3e5u2YUAZlZND8GNgGJ2h6" dataName="Duration" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepField" id="bvNsRmsfb5Ir6riiqE2i902hZsILunwF" dataName="Amount" dataKind="designDataKind"/>
         <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Type of good : "/>
-        <stepElements xsi:type="yest:StepField" id="KBYfcFa6J69lMB5Ov2GxU66lTUOkykTe" dataName="TypeOfGood" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepField" id="D8SDv1eNTfuuFIuB3FaTO1hemygXg3yZ" dataName="TypeOfGood" dataKind="designDataKind"/>
       </action>
       <expectedResult>
         <stepElements xsi:type="yest:StepText" content="The credit should be "/>
-        <stepElements xsi:type="yest:StepField" id="B5O2tcM9fzZq9yQCPmo8GaYIVQwoqDHo" dataName="CreditValidity" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepField" id="eSG0nXSVLHq4Giahccrjh4YXstB5Kjq1" dataName="CreditValidity" dataKind="designDataKind"/>
       </expectedResult>
     </highLevelStep>
     <lowLevelSteps>
@@ -1687,7 +1657,7 @@
         <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
       <dataSets name="Samsung" id="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY">
-        <values value="фіс" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Any" dataReference="//@dataSetCatalog/@dataReferences.0"/>
         <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
         <values value="Samsung" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
         <values value="18" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
