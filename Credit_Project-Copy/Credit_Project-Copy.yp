@@ -1009,7 +1009,7 @@
       <fonts name="Segoe UI" size="9"/>
     </diagram>
   </testElements>
-  <testElements xsi:type="yest:TestCampaign" id="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="TestCampaign" folders="c788bf9f0187665edb1f2570a0dd569f" dataSetCollections="191d1d4ccd4a46666f8480f459043a4a b26caef71b08c9fb89a2a953c93646d9 423954ae559ce6cc3d00773b0346a656">
+  <testElements xsi:type="yest:TestCampaign" id="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="TestCampaign" folders="c788bf9f0187665edb1f2570a0dd569f" dataSetCollections="b26caef71b08c9fb89a2a953c93646d9 423954ae559ce6cc3d00773b0346a656 191d1d4ccd4a46666f8480f459043a4a">
     <metadata key="PublisherId" value="e77961a6-a88e-4e63-80a5-20c897c5641d"/>
   </testElements>
   <testElements xsi:type="yest:PublisherConfiguration" id="NQyh2O4PjrRKtmKirR8gMnwqPWDdkKSz" campaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="PublicationExcel" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor">
@@ -1541,50 +1541,6 @@
     <datas name="Age" id="24dbaed7048093047169c9cd3b5f8931"/>
   </dataDictionary>
   <dataSetCatalog name="#catalog" id="q3wSJCLDp2LIkgqXpqFMRAIzqlYwFmg6">
-    <dataSetCollections name="Customer Set" id="191d1d4ccd4a46666f8480f459043a4a">
-      <dataSets name="John Smith" id="191d1d4ccd4a46666f8480f459043a4a-279862446">
-        <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Student" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="John Smith" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
-        <values value="12/25/2000" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
-      </dataSets>
-      <dataSets name="Pamela Jones" id="191d1d4ccd4a46666f8480f459043a4a-1838005781">
-        <values value="Between 16 and 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Employee" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="Pamela Jones" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
-        <values value="10/10/1967" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
-      </dataSets>
-      <dataSets name="Tyrone Phelps" id="191d1d4ccd4a46666f8480f459043a4a--65565655">
-        <values value="Between 16 and 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="Tyrone Phelps" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
-        <values value="05/20/1955" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
-      </dataSets>
-      <dataSets name="Kathleen Sullivan" id="191d1d4ccd4a46666f8480f459043a4a-334272752">
-        <values value="Higher than 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Other occupation" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="Kathleen Sullivan" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
-        <values value="01/07/1933" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
-      </dataSets>
-      <dataSets name="Georg Sanders" id="191d1d4ccd4a46666f8480f459043a4a--43936440">
-        <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="Georg Sanders" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
-        <values value="12/08/1929" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
-      </dataSets>
-      <dataSets name="John Vick" id="8nzkvTNr9zZSSrFfozsHWEVU26NMrjEp">
-        <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Employee" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="John Vick" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
-        <values value="01/01/1990" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
-      </dataSets>
-      <dataSets name="Sergey Victorovich" id="A8yJWVsUqL5diZdjOZpIxstldsvEdgDB">
-        <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="Sergey Victorovich" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
-        <values value="01/03/1601" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
-      </dataSets>
-    </dataSetCollections>
     <dataSetCollections name="Browsers" id="b26caef71b08c9fb89a2a953c93646d9">
       <dataSets name="Chrome" id="b26caef71b08c9fb89a2a953c93646d9-2017705626">
         <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
@@ -1658,6 +1614,44 @@
         <values value="Samsung" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
         <values value="81" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
         <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+    </dataSetCollections>
+    <dataSetCollections name="Customer Set" id="191d1d4ccd4a46666f8480f459043a4a">
+      <dataSets name="John Smith" id="191d1d4ccd4a46666f8480f459043a4a-279862446">
+        <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Student" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="John Smith" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="12/25/2000" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="Pamela Jones" id="191d1d4ccd4a46666f8480f459043a4a-1838005781">
+        <values value="Between 16 and 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Employee" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Pamela Jones" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="10/10/1967" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="Tyrone Phelps" id="191d1d4ccd4a46666f8480f459043a4a--65565655">
+        <values value="Between 16 and 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Tyrone Phelps" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="05/20/1955" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="Kathleen Sullivan" id="191d1d4ccd4a46666f8480f459043a4a-334272752">
+        <values value="Higher than 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Other occupation" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Kathleen Sullivan" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="01/07/1933" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="Georg Sanders" id="191d1d4ccd4a46666f8480f459043a4a--43936440">
+        <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Georg Sanders" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="12/08/1929" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="John Vick" id="8nzkvTNr9zZSSrFfozsHWEVU26NMrjEp">
+        <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Employee" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="John Vick" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="01/01/1990" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
     </dataSetCollections>
     <dataReferences xsi:type="yest:DesignData" dataName="Duration"/>
