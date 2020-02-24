@@ -1645,7 +1645,7 @@
         <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
       <dataSets name="Safari" id="b26caef71b08c9fb89a2a953c93646d9--1826030688">
-        <values value="Safari1" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
       <dataSets name="Internet Explorer" id="b26caef71b08c9fb89a2a953c93646d9--827740610">
         <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
@@ -1654,7 +1654,7 @@
         <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
       <dataSets name="Edge" id="xYduUsFeraeWmDNax4UOrK0t0JrDkXca">
-        <values value="Edge2" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
       <dataSets name="Opera" id="UgMZrfbcOxa0RxCq7gX5V5j7HIlo1SDt">
         <values value="Opera" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
