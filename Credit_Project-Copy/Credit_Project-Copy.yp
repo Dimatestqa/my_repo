@@ -1359,10 +1359,6 @@
     </testActions>
     <testActions id="QaEEtFYfZALhV9o7NAvbbbhTOe8AlmqW" operation="tzyXnkFWDcd2X1DSgDSbQErYk8WLxDD8"/>
     <testActions id="EP2Vc8VxmvW8P6YsIrq0chwh7ogJUEuO" operation="W9zjv7UqTP1fIcalFqe1dXGYIg7CpwhR"/>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-2011082565 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-1838005781" id="mqMdNOD75OG1SvEGTCo1QTTy4fKFrV2L"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1396664783 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-1838005781" id="cblnUBSapgDmI9qQE8S2q2Ve4JvMrwmg"/>
-    </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="RNyr0QZnVvm59bNdCC3xRnGBx2Pp83lq" name="Valid Appliance-New Customer-Invalid Student" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="XshuTJFxSWFtMxWpU2ww7QYToR1jmk6n" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
@@ -1391,9 +1387,6 @@
         <value definition="Invalid" id="uPOmczN2xIBUvX0Qn9GYzpRl1SpbpuI9"/>
       </stepFieldValues>
     </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-279862446" id="upWTuvSiCqNETWUqblfFi2XFzOQoH3th"/>
-    </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="SWb1IydxTfDbQv3Z7xIL32hTt1uQlIwX" name="Valid Video sound-New Customer-Invalid Retired" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="P1N1gtALNEE469u5aonImogMA3tnRF6f" operation="BtZBKPv4QdY4zlOX5z7IQ13nbsnKP4HU">
@@ -1428,9 +1421,6 @@
         <value definition="Invalid" id="MAR0EFS2Dk52EFPACy2ffzClv106fM6i"/>
       </stepFieldValues>
     </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1396664783 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a--43936440" id="kIzrArc7KR3ldlbgeJWYTwlxuDfYfMRG"/>
-    </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="iYdsHCUpJvAuIVhsBQY1CBi52yoa15hK" name="Invalid Credit phone" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="QIhzBcCX3lvPDVqPNivvVveNhwXQ8op8" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
@@ -1447,9 +1437,6 @@
         <value definition="Invalid" id="6cO28J0dEra9rb98LxLwqQXSx4Fiw6Ae"/>
       </stepFieldValues>
     </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-279862446" id="ZmXl5VpefAqbzZieiOiKMxVrtUhxeKiz"/>
-    </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="jnbQVMsPV9Pa9rUTPr62W8gQwsCbB7fG" name="Valid Appliance-Invalid Other occupation" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="ihvqQMFisgKWapcaeO2oYvbfeROMW7tT" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
@@ -1477,9 +1464,6 @@
         <value definition="Invalid" id="uopIf94is6T8Jwc5G2n3lfkDzf7MeabD"/>
       </stepFieldValues>
     </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-334272752" id="L0pxWmWviIXEh2oNBHKSqxxFJBF0VkOO"/>
-    </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestOperation" id="BtZBKPv4QdY4zlOX5z7IQ13nbsnKP4HU">
     <prerequisite>
@@ -1608,6 +1592,23 @@
         <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
     </dataSetCollections>
+    <dataSetCollections name="Browsers" id="b26caef71b08c9fb89a2a953c93646d9">
+      <dataSets name="Chrome" id="b26caef71b08c9fb89a2a953c93646d9-2017705626">
+        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Safari" id="b26caef71b08c9fb89a2a953c93646d9--1826030688">
+        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Internet Explorer" id="b26caef71b08c9fb89a2a953c93646d9--827740610">
+        <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Firefox" id="b26caef71b08c9fb89a2a953c93646d9-815200953">
+        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Edge" id="xYduUsFeraeWmDNax4UOrK0t0JrDkXca">
+        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+    </dataSetCollections>
     <dataSetCollections name="Customer Set" id="191d1d4ccd4a46666f8480f459043a4a">
       <dataSets name="John Smith" id="191d1d4ccd4a46666f8480f459043a4a-279862446">
         <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
@@ -1635,7 +1636,7 @@
       </dataSets>
       <dataSets name="Georg Sanders" id="191d1d4ccd4a46666f8480f459043a4a--43936440">
         <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Employee" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
         <values value="Georg Sanders" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
         <values value="12/08/1929" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
@@ -1645,22 +1646,11 @@
         <values value="John Vick" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
         <values value="01/01/1990" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
-    </dataSetCollections>
-    <dataSetCollections name="Browsers" id="b26caef71b08c9fb89a2a953c93646d9">
-      <dataSets name="Chrome" id="b26caef71b08c9fb89a2a953c93646d9-2017705626">
-        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Safari" id="b26caef71b08c9fb89a2a953c93646d9--1826030688">
-        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Internet Explorer" id="b26caef71b08c9fb89a2a953c93646d9--827740610">
-        <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Firefox" id="b26caef71b08c9fb89a2a953c93646d9-815200953">
-        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Edge" id="xYduUsFeraeWmDNax4UOrK0t0JrDkXca">
-        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      <dataSets name="Derek" id="bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex">
+        <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Derek" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="12/12/1985" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
     </dataSetCollections>
     <dataReferences xsi:type="yest:DesignData" dataName="Duration"/>
