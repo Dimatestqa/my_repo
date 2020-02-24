@@ -1361,6 +1361,7 @@
     <testActions id="EP2Vc8VxmvW8P6YsIrq0chwh7ogJUEuO" operation="W9zjv7UqTP1fIcalFqe1dXGYIg7CpwhR"/>
     <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
       <combinations dataSets="423954ae559ce6cc3d00773b0346a656-2011082565 191d1d4ccd4a46666f8480f459043a4a-1838005781 b26caef71b08c9fb89a2a953c93646d9-2017705626" id="k7N5IFzXDqqASKa1tn79NunNYLMo2qZS"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-886482226 191d1d4ccd4a46666f8480f459043a4a-1838005781 xYduUsFeraeWmDNax4UOrK0t0JrDkXca" id="oh9iPpNvjPIG05LaO0ciTMokTJgX0Ba8"/>
     </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="RNyr0QZnVvm59bNdCC3xRnGBx2Pp83lq" name="Valid Appliance-New Customer-Invalid Student" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
@@ -1392,43 +1393,8 @@
     </testActions>
     <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
       <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 191d1d4ccd4a46666f8480f459043a4a-279862446 b26caef71b08c9fb89a2a953c93646d9--827740610" id="3eydvDcgQOXUMkTCJei7GulN4HNlvugN"/>
-    </dataSetCombinations>
-  </testElements>
-  <testElements xsi:type="yest:TestScenario" id="SWb1IydxTfDbQv3Z7xIL32hTt1uQlIwX" name="Valid Video sound-New Customer-Invalid Retired" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
-    <testActions id="P1N1gtALNEE469u5aonImogMA3tnRF6f" operation="BtZBKPv4QdY4zlOX5z7IQ13nbsnKP4HU">
-      <stepFieldValues referencedStepField="Yap2QsvAh3ueauwaQwuNY7oyOphDgl9J">
-        <value definition="201" id="9TQjVPke1mRpTFb5wTsrSUBQafFF7YBx"/>
-      </stepFieldValues>
-      <stepFieldValues referencedStepField="FacPKSnagRtjki65xT6vmQv20401dRo9">
-        <value definition="Between 6 and 24 months" id="v5qDWlVwbl7ju1twfE4hbT8TKhAGbOjL"/>
-      </stepFieldValues>
-      <stepFieldValues referencedStepField="sT66xK8HTk31E2m6SCv1ppcgUxWvBezU">
-        <value definition="Between 6 and 24 months" id="BbZTX2a6Mh2yMVveZfQJIcm4zJ15E5GK"/>
-      </stepFieldValues>
-      <stepFieldValues referencedStepField="X7ZoI30EDvkAWSH6LpXUj2H7LanTPYUE">
-        <value definition="201" id="jJsxHHNWauJGLeMD7ZDU7N4zWTx21Zmb"/>
-      </stepFieldValues>
-      <stepFieldValues referencedStepField="L3oye94L3ukHgEczpR1qiYJeAIRGK8Lm">
-        <value definition="Video, sound" id="8uvbR3WJWfAEXw2n6aWeC5ROIRN0aC6E"/>
-      </stepFieldValues>
-      <stepFieldValues referencedStepField="GGXYL6EzTi33FhTN2eOdXpEaTmXzG46e">
-        <value definition="Valid" id="a5dzJ25pKreL7isV3P9jYQ62uTs8cdyY"/>
-      </stepFieldValues>
-    </testActions>
-    <testActions id="WeD79FsFR79IPf0M00Drl5Xr3nDHpbcN" operation="8WmGFXLIZntGEZ0wWiTCatUDk9dMKAaj"/>
-    <testActions id="cVyJLzw6H7QJ8hiB2mnbWBYOwzBiaybc" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
-      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
-        <value definition="Higher than 60" id="rWljMkewCeaXewUPKrPO9aLHk5MxCAZH"/>
-      </stepFieldValues>
-      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
-        <value definition="Retired" id="zZgQfik4ApYzEY6Rt3liSNJ08uLBBMB7"/>
-      </stepFieldValues>
-      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
-        <value definition="Invalid" id="MAR0EFS2Dk52EFPACy2ffzClv106fM6i"/>
-      </stepFieldValues>
-    </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-2011082565 191d1d4ccd4a46666f8480f459043a4a--43936440 b26caef71b08c9fb89a2a953c93646d9-2017705626" id="pywpziQvDrBF8IlAZsuawzCNRtTDK8k6"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1908892605 191d1d4ccd4a46666f8480f459043a4a-279862446 b26caef71b08c9fb89a2a953c93646d9-815200953" id="Q6sIpsRRSiUX8C7LEBTRmeMdgOF1NLOE"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1525306934 191d1d4ccd4a46666f8480f459043a4a-279862446 b26caef71b08c9fb89a2a953c93646d9--1826030688" id="wPuuwofzzVMtAcwv44QAToe1acXRAYvW"/>
     </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="iYdsHCUpJvAuIVhsBQY1CBi52yoa15hK" name="Invalid Credit phone" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
@@ -1456,6 +1422,7 @@
       <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW xAE0Y5O7c7uLCSBVdoqc8GX6EH7NCvrW GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="lcDZbntHXeYRKMaPtYTuPeGXPzkx3hLJ"/>
       <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW lQk1id7CH2Tt3DGLC3VLTWzjGAlBTipC GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="dhE4xnTpeCLGtvQpp5vCmvBHVWr7EziJ"/>
       <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW Mk5ZQMsVnura81o7txYXJemg7vfOtqhr GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="GvR5AotJWuHWWRM0zkqFpxX31MRZGKkn"/>
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW c629queXEM4T7cZttmS60uykqPPVtjqv GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="JdJcc2bwDawjakQNWBC8QNGhStWBiJc7"/>
     </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="jnbQVMsPV9Pa9rUTPr62W8gQwsCbB7fG" name="Valid Appliance-Invalid Other occupation" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
@@ -1486,94 +1453,11 @@
     </testActions>
     <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
       <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 191d1d4ccd4a46666f8480f459043a4a-334272752 b26caef71b08c9fb89a2a953c93646d9--827740610" id="B78YY7QZi9vG23KEiN1CTrUKUDkEBPBt"/>
-    </dataSetCombinations>
-  </testElements>
-  <testElements xsi:type="yest:TestOperation" id="BtZBKPv4QdY4zlOX5z7IQ13nbsnKP4HU">
-    <prerequisite>
-      <stepElements xsi:type="yest:StepText" content="The type of good "/>
-      <stepElements xsi:type="yest:StepField" id="zf2tYDJQ4Jfi86Yfzg5cq7XlhmOFxUeR" dataName="TypeOfGood" dataKind="designDataKind"/>
-      <stepElements xsi:type="yest:StepText" content=" must be registrered as a valid type of good"/>
-    </prerequisite>
-    <highLevelStep>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Check Credit Data:&#xD;&#xA;Amount : "/>
-        <stepElements xsi:type="yest:StepField" id="Yap2QsvAh3ueauwaQwuNY7oyOphDgl9J" dataName="Amount" dataKind="designDataKind"/>
-        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Duration : "/>
-        <stepElements xsi:type="yest:StepField" id="FacPKSnagRtjki65xT6vmQv20401dRo9" dataName="Duration" dataKind="designDataKind"/>
-        <stepElements xsi:type="yest:StepText" content=" "/>
-        <stepElements xsi:type="yest:StepField" id="sT66xK8HTk31E2m6SCv1ppcgUxWvBezU" dataName="Duration" dataKind="designDataKind"/>
-        <stepElements xsi:type="yest:StepText" content=" "/>
-        <stepElements xsi:type="yest:StepField" id="X7ZoI30EDvkAWSH6LpXUj2H7LanTPYUE" dataName="Amount" dataKind="designDataKind"/>
-        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Type of good : "/>
-        <stepElements xsi:type="yest:StepField" id="L3oye94L3ukHgEczpR1qiYJeAIRGK8Lm" dataName="TypeOfGood" dataKind="designDataKind"/>
-      </action>
-      <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="The credit should be "/>
-        <stepElements xsi:type="yest:StepField" id="GGXYL6EzTi33FhTN2eOdXpEaTmXzG46e" dataName="CreditValidity" dataKind="designDataKind"/>
-      </expectedResult>
-    </highLevelStep>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="On the left side of the screen, enter the following data:"/>
-      </action>
-      <expectedResult/>
-    </lowLevelSteps>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Amount: "/>
-        <stepElements xsi:type="yest:StepField" id="PGVwbF3EYUpdu5Oa7DOFheejyVongEB0" dataName="Amount" dataKind="designDataKind"/>
-      </action>
-      <expectedResult/>
-    </lowLevelSteps>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Duration: "/>
-        <stepElements xsi:type="yest:StepField" id="BpcDNeQLY5tuRroM4YhUopcrNAg2ySa1" dataName="Duration" dataKind="designDataKind"/>
-      </action>
-      <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="Check the entered duration"/>
-      </expectedResult>
-    </lowLevelSteps>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Type of good: "/>
-        <stepElements xsi:type="yest:StepField" id="B9wxw0uJaOq6CCjtfK2O10NBq2TjoVBb" dataName="TypeOfGood" dataKind="designDataKind"/>
-      </action>
-      <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="Check the entered type"/>
-      </expectedResult>
-    </lowLevelSteps>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Clic on the 'Check Credit' button"/>
-      </action>
-      <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="The displayed message should be "/>
-        <stepElements xsi:type="yest:StepField" id="UzAZa9EqRzlmRe9and4BezDFR5Kbldm1" dataName="CreditValidity" dataKind="designDataKind"/>
-      </expectedResult>
-    </lowLevelSteps>
-  </testElements>
-  <testElements xsi:type="yest:TestScenario" id="kQFmnjYHRLBNfI8jkqNl7KyaliPemgkj" name="Invalid Retired" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
-    <testActions id="PMKUple1KiKU5G0DRtq55K23kF0lzouF" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
-      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
-        <value definition="Higher than 60" id="OU63HSdLuvBTf3w92Mnk2Aun2NXXDwQ4"/>
-      </stepFieldValues>
-      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
-        <value definition="Retired" id="uQGxZloeVBPI1JNp99YnJwtrkTuOVU4O"/>
-      </stepFieldValues>
-      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
-        <value definition="Invalid" id="wyeydJJ73o1bLpMeGUUH7JtNEtF1qHxg"/>
-      </stepFieldValues>
-    </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9--1826030688" id="5BoWVnJmC5VgLv01Xm2SztzCNgEfeFHb"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9--827740610" id="Zaa5wnoBQSDI62Rk0M8U2AMuHeLjrEVG"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1908892605 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9-815200953" id="pPu5xeMo4RU6px7tS9wcVqBm70V3kdbd"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1525306934 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9--1826030688" id="POuROLCtX0tzVD9vLBX4DhRMBHz8seMK"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1396664783 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9-815200953" id="xO3VrpXPBt4dKmNAi0DAJusDZShBZmzB"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-2011082565 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9-2017705626" id="5ioPXQVGw6eP1LhiaK3U50KOcouHBxKk"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-886482226 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr xYduUsFeraeWmDNax4UOrK0t0JrDkXca" id="3uVdixPIq3sYTlAgFxnK3bBflhkOBQAR"/>
-      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW Mk5ZQMsVnura81o7txYXJemg7vfOtqhr GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="We75iWVJ2XzoRrlbFVVa9W1Z0RNPto9U"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 lQk1id7CH2Tt3DGLC3VLTWzjGAlBTipC b26caef71b08c9fb89a2a953c93646d9--827740610" id="DVAF4ZdGJ8Arm9KB5HhzGk8rAQx5dAuI"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1908892605 191d1d4ccd4a46666f8480f459043a4a-334272752 b26caef71b08c9fb89a2a953c93646d9-815200953" id="f8fskG13oZdxbftp1PfWXV3Ibu5IbKmQ"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1908892605 lQk1id7CH2Tt3DGLC3VLTWzjGAlBTipC b26caef71b08c9fb89a2a953c93646d9-815200953" id="CBvZxIgxMYY2cUDXSz74cuJ0bPAdjSoF"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1525306934 191d1d4ccd4a46666f8480f459043a4a-334272752 b26caef71b08c9fb89a2a953c93646d9--1826030688" id="2U6oRKmjNizHGqnSXIaKtT4c110F5JHc"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1525306934 lQk1id7CH2Tt3DGLC3VLTWzjGAlBTipC b26caef71b08c9fb89a2a953c93646d9--1826030688" id="SKPiMxpMjiKX24TuHMzUXXwfwBRUeqfR"/>
     </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="kISXt0zqSCaypGuHp9mQd8VIq3kpPZj7" name="Invalid Credit phone1" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
@@ -1601,7 +1485,122 @@
       <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 xAE0Y5O7c7uLCSBVdoqc8GX6EH7NCvrW b26caef71b08c9fb89a2a953c93646d9--1826030688" id="vVou3uPm0T7mZ7apYupD0YD1rC1Q99rH"/>
       <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 lQk1id7CH2Tt3DGLC3VLTWzjGAlBTipC b26caef71b08c9fb89a2a953c93646d9--1826030688" id="TgMPXobjkXrg3AEEgAGbeEnSnexNDq5M"/>
       <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9--1826030688" id="rCjAhJBKvYCQyxDZH6g2SZK1mtb4aK17"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 c629queXEM4T7cZttmS60uykqPPVtjqv b26caef71b08c9fb89a2a953c93646d9--1826030688" id="biPnjRqMd7NDEdiPptWngppZDL8Xpxpp"/>
     </dataSetCombinations>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="2X6RDsLhJzdZVuOaFx7JW9XNDq20XPQz" name="Valid Video sound-Invalid Student" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="0156yZ9xY4iNHdBd7VtcQtiSiSTvfJUV" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="201" id="WcUtkOBk7HNwIuovCq4VL0nLMtNI8QtI"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Between 6 and 24 months" id="kVnsUqtX9FcN6NXApT8WvC0jggdWMoFH"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Video, sound" id="cMx7fcvOr26FRPe2ht7TFK2G68uh9Ufi"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Valid" id="ZOFHTg7NMVLr2pjlRV6I4ZLDXJlTW8bV"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="pfGo2apcBLD3nrtKd5s3gxAiedfox1FB" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
+        <value definition="Between 16 and 30" id="HFoogKKnNYsmkWX5o16AEMk49BLFXDen"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
+        <value definition="Student" id="IdEx6pQRrC3gR8Lh3ARZd4DSqMLPm3o4"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
+        <value definition="Invalid" id="jWYwCryE3nrgA4jG6iKgaJi4sBgYmODH"/>
+      </stepFieldValues>
+    </testActions>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-2011082565 191d1d4ccd4a46666f8480f459043a4a-279862446 b26caef71b08c9fb89a2a953c93646d9-2017705626" id="a4oSue8GMiMjywzj46hC7lHuAEBsVbdZ"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-886482226 191d1d4ccd4a46666f8480f459043a4a-279862446 xYduUsFeraeWmDNax4UOrK0t0JrDkXca" id="EK9kf7gxrvIyVAsTUEmxL2IxjWmPdVZA"/>
+    </dataSetCombinations>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="gXv0KNBwXZ3dzwvfOVoyrahDQUUKDEpW" name="Valid Appliance-Invalid Retired" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="O5mZVo2kLkebHr54SykGDQxXMclXxUqJ" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="501" id="TiaAyYrRWMHtFs3e2T12i5JkRXkEWavI"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Between 10 and 36 months" id="BOLjJ6UcuEiPwYdImZbjSyiZEoNwHz1d"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Appliance" id="KrGWTaMk8TEopzuCzfYrjO0BSIo1K3qb"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Valid" id="Yht6e8vJOwonBehVrG3hzARQzP3QqaOS"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="RdcX6GX8ck6S7ktlinnOhpSnCZVeAbc8" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
+        <value definition="Higher than 60" id="0nzkAt55B4F4HBXRzkCcTl1WSHii1chB"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
+        <value definition="Retired" id="99LY20WO1MqBNX4VdzWJ9bZskBXxvthi"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
+        <value definition="Invalid" id="nhyq7Qbtz1c5MbTriXxUEYoUi7JYgLMD"/>
+      </stepFieldValues>
+    </testActions>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9--827740610" id="L1Geved3E0G0v8GHs3W1GZtcQTchDce9"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1908892605 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9-815200953" id="8EbZmPOa4eVz1U5cZutugZGHBUCPhItx"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1525306934 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9--1826030688" id="JvvxgmIyrJ1dyP4BexNlwRIfIFW8rOeo"/>
+    </dataSetCombinations>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="P7ItEnJfmvd2AafIiVoLDBVJimQTHy9u" name="Valid Appliance-Employee-Recorded contract" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="g6ggClVc47SYKtEpPxUwsGwiXtUAHw13" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="501" id="gMmXLI2U8F91oGgHw7aoZ1KvFZFhr4SM"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Between 10 and 36 months" id="qN8uQHhekbkGAEDZOdLISxNe1sHBpe7C"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Appliance" id="DmLT4cOWRt0q3N8MTpDhp1OcY8LIxbkk"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Valid" id="MW0KOkrBYFku8SHHEfI5z7ZSU7onqayj"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="ev8dlRSznLK3GHZD5A25pAc0chBJ2euJ" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
+        <value definition="Between 16 and 70" id="3H7v2Tf3B1wjbHmeibwzN1wks5Fntcqv"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
+        <value definition="Employee" id="IB1rJLBuwHSDgH0EH1Zk6v3zwYICeirt"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
+        <value definition="Valid" id="hMjivJS5yxrYG2x9Ql4W2g3V9Hqjdsc8"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="o9CIAOHv6T04C9ocu6jYfhnciSM8f0CE" operation="tzyXnkFWDcd2X1DSgDSbQErYk8WLxDD8"/>
+    <testActions id="tDKEVAK3OOJkdiDa6csVhQkqyEStl59K" operation="W9zjv7UqTP1fIcalFqe1dXGYIg7CpwhR"/>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 191d1d4ccd4a46666f8480f459043a4a-1838005781 b26caef71b08c9fb89a2a953c93646d9--827740610" id="6RDU6RqcrVxe1meLSBVK0nBL3wzDP2uz"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1908892605 191d1d4ccd4a46666f8480f459043a4a-1838005781 b26caef71b08c9fb89a2a953c93646d9-815200953" id="r44E8GMwaGRGu8tUGZ9MftQleRu2jTvy"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1525306934 191d1d4ccd4a46666f8480f459043a4a-1838005781 b26caef71b08c9fb89a2a953c93646d9--1826030688" id="Lfvvv959Tf8donvzuCnYUReTphrvBzde"/>
+    </dataSetCombinations>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="ghDwIveiWlcu2zwqI5TI2lRT6LKSZ9pN" name="New Customer" associatedWorkflow="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1">
+    <testActions id="ek8rvLEU1pvWrUXGc9BErXV3BY60Osbj" operation="8WmGFXLIZntGEZ0wWiTCatUDk9dMKAaj"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="jMaOrepYRI8VWjCXFW0nedLfrWGhvFJJ" name="New Customer-Invalid Retired" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="vBbZTxU1vziVuXx9EIVHSTWkbfN1VTOJ" operation="8WmGFXLIZntGEZ0wWiTCatUDk9dMKAaj"/>
+    <testActions id="Q2BWGTSBhw89SDdHjgXyEMjsPqmuDNKZ" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
+        <value definition="Higher than 60" id="98gwi0ovCrp5BnAT0F3HKvv2MhiYEGqC"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
+        <value definition="Retired" id="pRJoW2SpOIJ5gfy7pXH1bsNHeRarwgTK"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
+        <value definition="Invalid" id="Q9DqKfV1nkQpZGKJaWsnhVVBgnxpZJMc"/>
+      </stepFieldValues>
+    </testActions>
   </testElements>
   <dataDictionary name="#dictionary" id="PGyUuRfbpbXadCAoojd6F093I6AynzEU">
     <datas name="Occupation" id="7a5c364ea5252f8bfbd6cbd7c9765550"/>
