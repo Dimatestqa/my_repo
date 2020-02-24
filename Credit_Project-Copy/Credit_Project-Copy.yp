@@ -1565,6 +1565,16 @@
         <value definition="Invalid" id="wyeydJJ73o1bLpMeGUUH7JtNEtF1qHxg"/>
       </stepFieldValues>
     </testActions>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9--1826030688" id="5BoWVnJmC5VgLv01Xm2SztzCNgEfeFHb"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9--827740610" id="Zaa5wnoBQSDI62Rk0M8U2AMuHeLjrEVG"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1908892605 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9-815200953" id="pPu5xeMo4RU6px7tS9wcVqBm70V3kdbd"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1525306934 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9--1826030688" id="POuROLCtX0tzVD9vLBX4DhRMBHz8seMK"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1396664783 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9-815200953" id="xO3VrpXPBt4dKmNAi0DAJusDZShBZmzB"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-2011082565 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9-2017705626" id="5ioPXQVGw6eP1LhiaK3U50KOcouHBxKk"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-886482226 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr xYduUsFeraeWmDNax4UOrK0t0JrDkXca" id="3uVdixPIq3sYTlAgFxnK3bBflhkOBQAR"/>
+      <combinations dataSets="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW Mk5ZQMsVnura81o7txYXJemg7vfOtqhr GdEeWi6qnDsYkjP3PWv8gStdfybGf7Vo" id="We75iWVJ2XzoRrlbFVVa9W1Z0RNPto9U"/>
+    </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="kISXt0zqSCaypGuHp9mQd8VIq3kpPZj7" name="Invalid Credit phone1" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="m0eS1vfEOqb0hLHl1U7etOZ4euxKcJ7L" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
@@ -1581,6 +1591,17 @@
         <value definition="Invalid" id="3mDW9kiwYRLPRYwUTg9MaAjVxIKtNJ1L"/>
       </stepFieldValues>
     </testActions>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 191d1d4ccd4a46666f8480f459043a4a-279862446 b26caef71b08c9fb89a2a953c93646d9--1826030688" id="ePXZw5drsaPyIdiuvpwczsuQ3sPVxO8d"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 191d1d4ccd4a46666f8480f459043a4a-1838005781 b26caef71b08c9fb89a2a953c93646d9--1826030688" id="CLOEcNECJ9Jvriqn4pOBYa8nX0faymsB"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 191d1d4ccd4a46666f8480f459043a4a--65565655 b26caef71b08c9fb89a2a953c93646d9--1826030688" id="cj3ECaHL4Ip5FsyDILiakusR9QInesU3"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 191d1d4ccd4a46666f8480f459043a4a-334272752 b26caef71b08c9fb89a2a953c93646d9--1826030688" id="Rntoyx93dejC85JZJCLzrgAxZxBuaiSR"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 191d1d4ccd4a46666f8480f459043a4a--43936440 b26caef71b08c9fb89a2a953c93646d9--1826030688" id="gfGdZskWUsj0sewIWdjRtlL8878JgoJG"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 8nzkvTNr9zZSSrFfozsHWEVU26NMrjEp b26caef71b08c9fb89a2a953c93646d9--1826030688" id="ARtrjIVUf6HJO0tfuEuBBNKIrLoggsY0"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 xAE0Y5O7c7uLCSBVdoqc8GX6EH7NCvrW b26caef71b08c9fb89a2a953c93646d9--1826030688" id="vVou3uPm0T7mZ7apYupD0YD1rC1Q99rH"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 lQk1id7CH2Tt3DGLC3VLTWzjGAlBTipC b26caef71b08c9fb89a2a953c93646d9--1826030688" id="TgMPXobjkXrg3AEEgAGbeEnSnexNDq5M"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 Mk5ZQMsVnura81o7txYXJemg7vfOtqhr b26caef71b08c9fb89a2a953c93646d9--1826030688" id="rCjAhJBKvYCQyxDZH6g2SZK1mtb4aK17"/>
+    </dataSetCombinations>
   </testElements>
   <dataDictionary name="#dictionary" id="PGyUuRfbpbXadCAoojd6F093I6AynzEU">
     <datas name="Occupation" id="7a5c364ea5252f8bfbd6cbd7c9765550"/>
@@ -1701,9 +1722,15 @@
         <values value="01/01/1900" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
       <dataSets name="Various User" id="Mk5ZQMsVnura81o7txYXJemg7vfOtqhr">
-        <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
         <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
         <values value="Various User" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="Data set" id="c629queXEM4T7cZttmS60uykqPPVtjqv">
+        <values value="" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
         <values value="" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
     </dataSetCollections>
