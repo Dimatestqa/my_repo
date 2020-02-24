@@ -133,6 +133,43 @@
             <value xsi:type="yest:StringCell" value=""/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0">
+            <value xsi:type="yest:StringCell" value="> 0"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750">
+            <value xsi:type="yest:StringCell" value="Phone"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
+            <value xsi:type="yest:StringCell" value="Invalid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974">
+            <value xsi:type="yest:StringCell" value="->Not Eligible Credit"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value="Invalid Credit phone"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299--1100816956">
+            <value xsi:type="yest:StringCell" value="Low"/>
+          </cells>
+          <cells key="M61mCqQ1gbxiDNIvMBdzcD0i4t70Oc0b">
+            <value xsi:type="yest:StringCell" value="CRED-INVALID"/>
+          </cells>
+          <cells key="U3dLodAWNfuKYd7fwYfuNr6ZCIbmb2tl">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="F68vJ3CUcIOJR3wFzPBEOXLXipfUxneR">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0">
             <value xsi:type="yest:StringCell" value=""/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750">
@@ -1428,7 +1465,7 @@
         <value definition="1" id="cEyMzY7qpsO83vBgUpTAO6jqMWWPuzUN"/>
       </stepFieldValues>
       <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
-        <value definition="Between 10 and 36 months" id="wFW7QjYj2XXsav8s4iuPhLAUhAtgwdqh"/>
+        <value definition="Any" id="xIHyQ0lBpNaCx7FkYPc5vbeT38bWJJms"/>
       </stepFieldValues>
       <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
         <value definition="Phone" id="nCB7Yy7nSGVSlmaVZgnDa4w7z4WLwGUo"/>
@@ -1437,16 +1474,7 @@
         <value definition="Invalid" id="6cO28J0dEra9rb98LxLwqQXSx4Fiw6Ae"/>
       </stepFieldValues>
     </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-279862446" id="YA1xwCtOXSC9Rl6nApdGeKvEwUoJL6Nq"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-1838005781" id="xzzo7ybrPSEvGJ1O3cp6ndkvaYSaICB9"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a--65565655" id="1tryzTtVXAveATuxXme8Oowc5jM2wBwk"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-334272752" id="2qsYoqVZBX8OYKfGKV4O4BZzmC1dWRao"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a--43936440" id="9mRxVMHlMzLBW5cGOcGnIB0FRMLnTbTC"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 8nzkvTNr9zZSSrFfozsHWEVU26NMrjEp" id="9sFjokY3R3ty5dW5oskDJrDeqUe05tqX"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex" id="zl7wszXVlOw2rLZQWkloi9VbwTcUSq2C"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 oNNmleKAOmEgco22g801KswW3mwvOz6M" id="yO3DRqfztOZTvPsmb6n7j0VnhU6XQK6M"/>
-    </dataSetCombinations>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw"/>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="jnbQVMsPV9Pa9rUTPr62W8gQwsCbB7fG" name="Valid Appliance-Invalid Other occupation" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="ihvqQMFisgKWapcaeO2oYvbfeROMW7tT" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
