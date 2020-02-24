@@ -1446,7 +1446,6 @@
         <value definition="Invalid" id="6cO28J0dEra9rb98LxLwqQXSx4Fiw6Ae"/>
       </stepFieldValues>
     </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw"/>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="jnbQVMsPV9Pa9rUTPr62W8gQwsCbB7fG" name="Valid Appliance-Invalid Other occupation" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="ihvqQMFisgKWapcaeO2oYvbfeROMW7tT" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
@@ -1663,8 +1662,8 @@
       </dataSets>
       <dataSets name="Various User" id="Mk5ZQMsVnura81o7txYXJemg7vfOtqhr">
         <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Various User" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
         <values value="" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
     </dataSetCollections>
