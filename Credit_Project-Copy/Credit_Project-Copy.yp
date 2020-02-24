@@ -1595,7 +1595,7 @@
         <values value="Between 6 and 24 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
         <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
         <values value="Samsung" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
-        <values value="81" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="18" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
         <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
     </dataSetCollections>
@@ -1613,7 +1613,7 @@
         <values value="10/10/1967" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
       <dataSets name="Tyrone Phelps" id="191d1d4ccd4a46666f8480f459043a4a--65565655">
-        <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Between 16 and 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
         <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
         <values value="Tyrone Phelps" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
         <values value="05/20/1955" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
@@ -1626,7 +1626,7 @@
       </dataSets>
       <dataSets name="Georg Sanders" id="191d1d4ccd4a46666f8480f459043a4a--43936440">
         <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Student" dataReference="//@dataSetCatalog/@dataReferences.5"/>
         <values value="Georg Sanders" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
         <values value="12/08/1929" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
