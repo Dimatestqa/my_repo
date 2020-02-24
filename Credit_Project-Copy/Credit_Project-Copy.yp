@@ -1446,7 +1446,24 @@
         <value definition="Invalid" id="hgpe2cv2Mi0tWFo4RFu28KXwj0WYPUWq"/>
       </stepFieldValues>
     </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw"/>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-279862446" id="7nOa5zYTROA0OvRCWPAWxELkzkXVJ7pZ"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-1838005781" id="n09QbykCsBEQlJcYCbQoNRrF6KPO7Qcx"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a--65565655" id="93BrNGc73yC1WzgGAOGb3VwCeywo6Byv"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-334272752" id="dhUcTl1WhoeOudRihnm5udddpzPzVarX"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a--43936440" id="tOGMVENJdxQnIY8NjNshcS2S6yM5eh5k"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 8nzkvTNr9zZSSrFfozsHWEVU26NMrjEp" id="dI7Z2RmSWEVz8OsQ1ivsslIEbdfawPDw"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex" id="PkTqjd8A13ULr2w0hKfAiFPklb57MAOg"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 oNNmleKAOmEgco22g801KswW3mwvOz6M" id="dxt5vF1wZ1nlFG0QrwLjTovaSW5pimNr"/>
+      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-279862446" id="oPPBZomNDYZj2MTI9PYfMoqcbTeHzNAb"/>
+      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-1838005781" id="axwNs6CS3XVV7xhRAexOdEcKMxdlAPZm"/>
+      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a--65565655" id="KJKre41mG10WH9m38OanCRM8if1Kpb3n"/>
+      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-334272752" id="Q2Ri3GMTOp5WNDZLob81RrnaMRJHo3A5"/>
+      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a--43936440" id="lnJ3lQJLicQSoW8FytNG7RZX9keB2Sjq"/>
+      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 8nzkvTNr9zZSSrFfozsHWEVU26NMrjEp" id="acP0i1t5Gyw9G26gWTwHvfNX3hSdXwlV"/>
+      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex" id="QPzGB4krp2y7QX0KYm5gH12pcv18hGZV"/>
+      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 oNNmleKAOmEgco22g801KswW3mwvOz6M" id="DuC451IbN7hQX1KSLedITEkBfhPxCR0i"/>
+    </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="jnbQVMsPV9Pa9rUTPr62W8gQwsCbB7fG" name="Valid Appliance-Invalid Other occupation" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="ihvqQMFisgKWapcaeO2oYvbfeROMW7tT" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
