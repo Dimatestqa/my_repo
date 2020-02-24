@@ -128,6 +128,41 @@
             <value xsi:type="yest:StringCell" value="http://linuxjira:8081/browse/CREDEN-4"/>
           </cells>
         </decisions>
+        <decisions id="SXQVfKlq60aJePGVa7Ijx2wlIsNiWSjO">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299--1100816956">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="M61mCqQ1gbxiDNIvMBdzcD0i4t70Oc0b">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="U3dLodAWNfuKYd7fwYfuNr6ZCIbmb2tl">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101">
+            <value xsi:type="yest:OperationCell"/>
+          </cells>
+        </decisions>
       </table>
     </flowElements>
     <flowElements xsi:type="yest:EndPoint" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223-1182610933" name="Not Eligible Credit" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767"/>
@@ -1361,18 +1396,24 @@
     </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="SWb1IydxTfDbQv3Z7xIL32hTt1uQlIwX" name="Valid Video sound-New Customer-Invalid Retired" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
-    <testActions id="P1N1gtALNEE469u5aonImogMA3tnRF6f" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
-      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
-        <value definition="201" id="5fQaQEwi73x9GDI3eBCHIacy5cfmbkIC"/>
+    <testActions id="P1N1gtALNEE469u5aonImogMA3tnRF6f" operation="BtZBKPv4QdY4zlOX5z7IQ13nbsnKP4HU">
+      <stepFieldValues referencedStepField="Yap2QsvAh3ueauwaQwuNY7oyOphDgl9J">
+        <value definition="201" id="9TQjVPke1mRpTFb5wTsrSUBQafFF7YBx"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
-        <value definition="Between 6 and 24 months" id="O4yZR6ozBAWZ37i9lnWjZhi0vbOxoo19"/>
+      <stepFieldValues referencedStepField="FacPKSnagRtjki65xT6vmQv20401dRo9">
+        <value definition="Between 6 and 24 months" id="v5qDWlVwbl7ju1twfE4hbT8TKhAGbOjL"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
-        <value definition="Video, sound" id="CIjem1WGDIllIBmmGhfY9okHNYfPHvu2"/>
+      <stepFieldValues referencedStepField="sT66xK8HTk31E2m6SCv1ppcgUxWvBezU">
+        <value definition="Between 6 and 24 months" id="BbZTX2a6Mh2yMVveZfQJIcm4zJ15E5GK"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
-        <value definition="Valid" id="34Kl3JPkSdn4EA7B4BM1sFrvVYDqusiL"/>
+      <stepFieldValues referencedStepField="X7ZoI30EDvkAWSH6LpXUj2H7LanTPYUE">
+        <value definition="201" id="jJsxHHNWauJGLeMD7ZDU7N4zWTx21Zmb"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="L3oye94L3ukHgEczpR1qiYJeAIRGK8Lm">
+        <value definition="Video, sound" id="8uvbR3WJWfAEXw2n6aWeC5ROIRN0aC6E"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="GGXYL6EzTi33FhTN2eOdXpEaTmXzG46e">
+        <value definition="Valid" id="a5dzJ25pKreL7isV3P9jYQ62uTs8cdyY"/>
       </stepFieldValues>
     </testActions>
     <testActions id="WeD79FsFR79IPf0M00Drl5Xr3nDHpbcN" operation="8WmGFXLIZntGEZ0wWiTCatUDk9dMKAaj"/>
@@ -1439,6 +1480,71 @@
     <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
       <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-334272752" id="L0pxWmWviIXEh2oNBHKSqxxFJBF0VkOO"/>
     </dataSetCombinations>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="BtZBKPv4QdY4zlOX5z7IQ13nbsnKP4HU">
+    <prerequisite>
+      <stepElements xsi:type="yest:StepText" content="The type of good "/>
+      <stepElements xsi:type="yest:StepField" id="zf2tYDJQ4Jfi86Yfzg5cq7XlhmOFxUeR" dataName="TypeOfGood" dataKind="designDataKind"/>
+      <stepElements xsi:type="yest:StepText" content=" must be registrered as a valid type of good"/>
+    </prerequisite>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Check Credit Data:&#xD;&#xA;Amount : "/>
+        <stepElements xsi:type="yest:StepField" id="Yap2QsvAh3ueauwaQwuNY7oyOphDgl9J" dataName="Amount" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Duration : "/>
+        <stepElements xsi:type="yest:StepField" id="FacPKSnagRtjki65xT6vmQv20401dRo9" dataName="Duration" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content=" "/>
+        <stepElements xsi:type="yest:StepField" id="sT66xK8HTk31E2m6SCv1ppcgUxWvBezU" dataName="Duration" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content=" "/>
+        <stepElements xsi:type="yest:StepField" id="X7ZoI30EDvkAWSH6LpXUj2H7LanTPYUE" dataName="Amount" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Type of good : "/>
+        <stepElements xsi:type="yest:StepField" id="L3oye94L3ukHgEczpR1qiYJeAIRGK8Lm" dataName="TypeOfGood" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="The credit should be "/>
+        <stepElements xsi:type="yest:StepField" id="GGXYL6EzTi33FhTN2eOdXpEaTmXzG46e" dataName="CreditValidity" dataKind="designDataKind"/>
+      </expectedResult>
+    </highLevelStep>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="On the left side of the screen, enter the following data:"/>
+      </action>
+      <expectedResult/>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Amount: "/>
+        <stepElements xsi:type="yest:StepField" id="PGVwbF3EYUpdu5Oa7DOFheejyVongEB0" dataName="Amount" dataKind="designDataKind"/>
+      </action>
+      <expectedResult/>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Duration: "/>
+        <stepElements xsi:type="yest:StepField" id="BpcDNeQLY5tuRroM4YhUopcrNAg2ySa1" dataName="Duration" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Check the entered duration"/>
+      </expectedResult>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Type of good: "/>
+        <stepElements xsi:type="yest:StepField" id="B9wxw0uJaOq6CCjtfK2O10NBq2TjoVBb" dataName="TypeOfGood" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Check the entered type"/>
+      </expectedResult>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Clic on the 'Check Credit' button"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="The displayed message should be "/>
+        <stepElements xsi:type="yest:StepField" id="UzAZa9EqRzlmRe9and4BezDFR5Kbldm1" dataName="CreditValidity" dataKind="designDataKind"/>
+      </expectedResult>
+    </lowLevelSteps>
   </testElements>
   <dataDictionary name="#dictionary" id="PGyUuRfbpbXadCAoojd6F093I6AynzEU">
     <datas name="Occupation" id="7a5c364ea5252f8bfbd6cbd7c9765550"/>
