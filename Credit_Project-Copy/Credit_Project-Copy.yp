@@ -9,6 +9,7 @@
         <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368" dataName="Amount"/>
         <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0" dataName="Amount"/>
         <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750" dataName="TypeOfGood"/>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268" dataName="Duration"/>
         <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986" type="SET" dataName="CreditValidity"/>
         <columns xsi:type="yest:OperationColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101"/>
         <columns xsi:type="yest:OutcomeColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974"/>
@@ -19,6 +20,9 @@
         <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-2048725308-575030598--1720195902-2024566832-657432064--2012531614-292738086--2012531614-1330748565-1711037985">
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
             <value xsi:type="yest:StringCell" value="Valid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
+            <value xsi:type="yest:StringCell" value="Between 6 and 24 months"/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
             <value xsi:type="yest:StringCell" value="&lt; 2000"/>
@@ -37,7 +41,7 @@
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101">
             <value xsi:type="yest:OperationCell">
-              <operations reference="jaP8BYWEApSWu71WWOL2we2K3bTc3dba"/>
+              <operations reference="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw"/>
             </value>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974">
@@ -53,6 +57,9 @@
         <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-2048725308--10118434--1720106529-2024569715--600160531--2012531614--748527703-2013475488-1330748565-1711037985">
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
             <value xsi:type="yest:StringCell" value="Valid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
+            <value xsi:type="yest:StringCell" value="Between 10 and 36 months"/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
             <value xsi:type="yest:StringCell" value="&lt; 5000"/>
@@ -71,7 +78,7 @@
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101">
             <value xsi:type="yest:OperationCell">
-              <operations reference="jaP8BYWEApSWu71WWOL2we2K3bTc3dba"/>
+              <operations reference="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw"/>
             </value>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974">
@@ -87,6 +94,9 @@
         <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--836426953--64926932-2013475488--64932306-2043395758--1168230859-759320560-2013475488-1330748565--2139686396">
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
             <value xsi:type="yest:StringCell" value="Invalid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
+            <value xsi:type="yest:StringCell" value="Any"/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
             <value xsi:type="yest:StringCell" value=""/>
@@ -105,7 +115,7 @@
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101">
             <value xsi:type="yest:OperationCell">
-              <operations reference="jaP8BYWEApSWu71WWOL2we2K3bTc3dba"/>
+              <operations reference="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw"/>
             </value>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974">
@@ -123,43 +133,12 @@
             <value xsi:type="yest:StringCell" value=""/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0">
-            <value xsi:type="yest:StringCell" value="> 0"/>
-          </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750">
-            <value xsi:type="yest:StringCell" value="Phone"/>
-          </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
-            <value xsi:type="yest:StringCell" value="Invalid"/>
-          </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974">
-            <value xsi:type="yest:StringCell" value="->Not Eligible Credit"/>
-          </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299-222376054">
-            <value xsi:type="yest:StringCell" value="Invalid Credit phone"/>
-          </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299--1100816956">
-            <value xsi:type="yest:StringCell" value="Low"/>
-          </cells>
-          <cells key="M61mCqQ1gbxiDNIvMBdzcD0i4t70Oc0b">
-            <value xsi:type="yest:StringCell" value="CRED-INVALID"/>
-          </cells>
-          <cells key="U3dLodAWNfuKYd7fwYfuNr6ZCIbmb2tl">
-            <value xsi:type="yest:StringCell" value=""/>
-          </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101">
-            <value xsi:type="yest:OperationCell">
-              <operations reference="jaP8BYWEApSWu71WWOL2we2K3bTc3dba"/>
-            </value>
-          </cells>
-        </decisions>
-        <decisions id="F68vJ3CUcIOJR3wFzPBEOXLXipfUxneR">
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
-            <value xsi:type="yest:StringCell" value=""/>
-          </cells>
-          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0">
             <value xsi:type="yest:StringCell" value=""/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
             <value xsi:type="yest:StringCell" value=""/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
@@ -1030,7 +1009,7 @@
       <fonts name="Segoe UI" size="9"/>
     </diagram>
   </testElements>
-  <testElements xsi:type="yest:TestCampaign" id="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="TestCampaign" folders="c788bf9f0187665edb1f2570a0dd569f" dataSetCollections="423954ae559ce6cc3d00773b0346a656 b26caef71b08c9fb89a2a953c93646d9 191d1d4ccd4a46666f8480f459043a4a">
+  <testElements xsi:type="yest:TestCampaign" id="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="TestCampaign" folders="c788bf9f0187665edb1f2570a0dd569f" dataSetCollections="423954ae559ce6cc3d00773b0346a656 191d1d4ccd4a46666f8480f459043a4a b26caef71b08c9fb89a2a953c93646d9">
     <metadata key="PublisherId" value="e77961a6-a88e-4e63-80a5-20c897c5641d"/>
   </testElements>
   <testElements xsi:type="yest:PublisherConfiguration" id="NQyh2O4PjrRKtmKirR8gMnwqPWDdkKSz" campaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="PublicationExcel" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor">
@@ -1145,13 +1124,15 @@
     <highLevelStep>
       <action>
         <stepElements xsi:type="yest:StepText" content="Check Credit Data:&#xD;&#xA;Amount : "/>
-        <stepElements xsi:type="yest:StepField" id="zcxznOG5AZiTQVTyPnhyXjIgst0ihKhN" dataName="Amount" dataKind="designDataKind"/>
-        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Duration: Type of good : "/>
-        <stepElements xsi:type="yest:StepField" id="XDw0JdBGeZE4YolmYJyKcKFlp3IoAVe6" dataName="TypeOfGood" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepField" id="ra93FDri6igz1yWdsluqDmqkyarOisrE" dataName="Amount" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Duration : "/>
+        <stepElements xsi:type="yest:StepField" id="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4" dataName="Duration" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Type of good : "/>
+        <stepElements xsi:type="yest:StepField" id="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo" dataName="TypeOfGood" dataKind="designDataKind"/>
       </action>
       <expectedResult>
         <stepElements xsi:type="yest:StepText" content="The credit should be "/>
-        <stepElements xsi:type="yest:StepField" id="aCvXqk1JosknucJox5CXHOtGninlrrSK" dataName="CreditValidity" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepField" id="yus7l40NbmmjUFdsx57EmDMwBTLUX64p" dataName="CreditValidity" dataKind="designDataKind"/>
       </expectedResult>
     </highLevelStep>
     <lowLevelSteps>
@@ -1169,7 +1150,8 @@
     </lowLevelSteps>
     <lowLevelSteps>
       <action>
-        <stepElements xsi:type="yest:StepText" content="Duration:"/>
+        <stepElements xsi:type="yest:StepText" content="Duration: "/>
+        <stepElements xsi:type="yest:StepField" id="IO8ZkzmsLoGUPt7AeYAG8r4k1SdjKDua" dataName="Duration" dataKind="designDataKind"/>
       </action>
       <expectedResult>
         <stepElements xsi:type="yest:StepText" content="Check the entered duration"/>
@@ -1351,14 +1333,17 @@
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="NmFu0zGcPlrF7gR7fAjjwHuibU002MsX" name="Valid Video sound-Employee-Recorded contract" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="fcZEfM7OSph4f2lRVMORhibLQBXEC6u9" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
-      <stepFieldValues referencedStepField="zcxznOG5AZiTQVTyPnhyXjIgst0ihKhN">
-        <value definition="201" id="Fs71fm4CnLfwxgGX23xdglEZuQXfLrxf"/>
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="201" id="YLEZE4PMbG4LNRCSE6Dg5lpQoVobqBKL"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="XDw0JdBGeZE4YolmYJyKcKFlp3IoAVe6">
-        <value definition="Video, sound" id="Za66rDnJpcXdBk7TJVVRmvFKrGSnB9gd"/>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Between 6 and 24 months" id="vRMdLibwdbusTxHpQKXN1PDzN0r88td7"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="aCvXqk1JosknucJox5CXHOtGninlrrSK">
-        <value definition="Valid" id="xK9qA2N5tSagAEqZ1gx4ip8hdfTCnFdg"/>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Video, sound" id="rhzR509OJZooifQXq41sjMxmG4eSO2Xk"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Valid" id="bVgmsvX0O02BhchZcxswdORVpGPkPXww"/>
       </stepFieldValues>
     </testActions>
     <testActions id="RLZtxEva4m8ueIE1iyleah7NmglYhuXg" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
@@ -1377,14 +1362,17 @@
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="RNyr0QZnVvm59bNdCC3xRnGBx2Pp83lq" name="Valid Appliance-New Customer-Invalid Student" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="XshuTJFxSWFtMxWpU2ww7QYToR1jmk6n" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
-      <stepFieldValues referencedStepField="zcxznOG5AZiTQVTyPnhyXjIgst0ihKhN">
-        <value definition="501" id="t2ph5L9Lyry5t4ZiHOtZdafHpGz6ygwV"/>
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="501" id="2pDko9NZ8FSm1dVbYc5LcaC8TvvkZgZW"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="XDw0JdBGeZE4YolmYJyKcKFlp3IoAVe6">
-        <value definition="Appliance" id="lniW96hUCjlh7l4fL9kviYVP9CmFB5QW"/>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Between 10 and 36 months" id="t7JAN8wpb7sMCOQGKK8TGGMjNWnRdgZq"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="aCvXqk1JosknucJox5CXHOtGninlrrSK">
-        <value definition="Valid" id="ppuCbBw2c5C5as2S3AZbtdsX3sthI8Rv"/>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Appliance" id="EAlE3lrBx1DPRTDG79eGu4N6QF0Ewup8"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Valid" id="B9CvNiM4xd2FCHpJ1LPiDdQw56iGB1qB"/>
       </stepFieldValues>
     </testActions>
     <testActions id="ZHg8ADiXf8m6AMtI13B3y8pqgRVCFEE8" operation="8WmGFXLIZntGEZ0wWiTCatUDk9dMKAaj"/>
@@ -1435,46 +1423,34 @@
     </testActions>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="iYdsHCUpJvAuIVhsBQY1CBi52yoa15hK" name="Invalid Credit phone" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
-    <testActions id="QIhzBcCX3lvPDVqPNivvVveNhwXQ8op8" operation="jaP8BYWEApSWu71WWOL2we2K3bTc3dba">
-      <stepFieldValues referencedStepField="bvNsRmsfb5Ir6riiqE2i902hZsILunwF">
-        <value definition="1" id="JhavmI08yUKavuI2yZdLcLKauF6FHHCS"/>
+    <testActions id="QIhzBcCX3lvPDVqPNivvVveNhwXQ8op8" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="1" id="cEyMzY7qpsO83vBgUpTAO6jqMWWPuzUN"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="D8SDv1eNTfuuFIuB3FaTO1hemygXg3yZ">
-        <value definition="Phone" id="eaKomCSrJdK9cqRaFFdOQIUxyWlBn1ky"/>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Any" id="JcIC9u07iiyEpKBGPq7cLvvuU7A91n52"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="eSG0nXSVLHq4Giahccrjh4YXstB5Kjq1">
-        <value definition="Invalid" id="hgpe2cv2Mi0tWFo4RFu28KXwj0WYPUWq"/>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Phone" id="nCB7Yy7nSGVSlmaVZgnDa4w7z4WLwGUo"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Invalid" id="6cO28J0dEra9rb98LxLwqQXSx4Fiw6Ae"/>
       </stepFieldValues>
     </testActions>
-    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-279862446" id="7nOa5zYTROA0OvRCWPAWxELkzkXVJ7pZ"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-1838005781" id="n09QbykCsBEQlJcYCbQoNRrF6KPO7Qcx"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a--65565655" id="93BrNGc73yC1WzgGAOGb3VwCeywo6Byv"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-334272752" id="dhUcTl1WhoeOudRihnm5udddpzPzVarX"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a--43936440" id="tOGMVENJdxQnIY8NjNshcS2S6yM5eh5k"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 8nzkvTNr9zZSSrFfozsHWEVU26NMrjEp" id="dI7Z2RmSWEVz8OsQ1ivsslIEbdfawPDw"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex" id="PkTqjd8A13ULr2w0hKfAiFPklb57MAOg"/>
-      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9--1826030688 oNNmleKAOmEgco22g801KswW3mwvOz6M" id="dxt5vF1wZ1nlFG0QrwLjTovaSW5pimNr"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-279862446" id="oPPBZomNDYZj2MTI9PYfMoqcbTeHzNAb"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-1838005781" id="axwNs6CS3XVV7xhRAexOdEcKMxdlAPZm"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a--65565655" id="KJKre41mG10WH9m38OanCRM8if1Kpb3n"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-334272752" id="Q2Ri3GMTOp5WNDZLob81RrnaMRJHo3A5"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a--43936440" id="lnJ3lQJLicQSoW8FytNG7RZX9keB2Sjq"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 8nzkvTNr9zZSSrFfozsHWEVU26NMrjEp" id="acP0i1t5Gyw9G26gWTwHvfNX3hSdXwlV"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex" id="QPzGB4krp2y7QX0KYm5gH12pcv18hGZV"/>
-      <combinations dataSets="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY b26caef71b08c9fb89a2a953c93646d9-2017705626 oNNmleKAOmEgco22g801KswW3mwvOz6M" id="DuC451IbN7hQX1KSLedITEkBfhPxCR0i"/>
-    </dataSetCombinations>
   </testElements>
   <testElements xsi:type="yest:TestScenario" id="jnbQVMsPV9Pa9rUTPr62W8gQwsCbB7fG" name="Valid Appliance-Invalid Other occupation" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
     <testActions id="ihvqQMFisgKWapcaeO2oYvbfeROMW7tT" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
-      <stepFieldValues referencedStepField="zcxznOG5AZiTQVTyPnhyXjIgst0ihKhN">
-        <value definition="501" id="S1rHTkhGJdaPs37utg154TKhqpvQJV9h"/>
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="501" id="WkltbyY4z8erXJSN6ik7tzgv0e9rXShQ"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="XDw0JdBGeZE4YolmYJyKcKFlp3IoAVe6">
-        <value definition="Appliance" id="UBfcGVwLKZH8RbeqRuVa8uNnAwZSytV7"/>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Between 10 and 36 months" id="eSE2bLTxO2qg7KPv7CzIrOblOfAum8Xk"/>
       </stepFieldValues>
-      <stepFieldValues referencedStepField="aCvXqk1JosknucJox5CXHOtGninlrrSK">
-        <value definition="Valid" id="MAItbDzsI6haCOvrZWAqxtN4L1oISsD9"/>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Appliance" id="PM2FXhKT5RJdx6Z2qw5eHAyMTME7eXjk"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Valid" id="pp1LiG03ebOIqvDc0Lnv2yeF9stNbuSt"/>
       </stepFieldValues>
     </testActions>
     <testActions id="4V28N0BWpRrd7yN10aRgLVSAZjcik8Ux" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
@@ -1554,64 +1530,6 @@
       </expectedResult>
     </lowLevelSteps>
   </testElements>
-  <testElements xsi:type="yest:TestOperation" id="jaP8BYWEApSWu71WWOL2we2K3bTc3dba">
-    <prerequisite>
-      <stepElements xsi:type="yest:StepText" content="The type of good "/>
-      <stepElements xsi:type="yest:StepField" id="181YxlSaDdQi0yeFBnQeky5bsqvCltsC" dataName="TypeOfGood" dataKind="designDataKind"/>
-      <stepElements xsi:type="yest:StepText" content=" must be registrered as a valid type of good"/>
-    </prerequisite>
-    <highLevelStep>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Check Credit Data:&#xD;&#xA;Amount : "/>
-        <stepElements xsi:type="yest:StepField" id="bvNsRmsfb5Ir6riiqE2i902hZsILunwF" dataName="Amount" dataKind="designDataKind"/>
-        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Type of good : "/>
-        <stepElements xsi:type="yest:StepField" id="D8SDv1eNTfuuFIuB3FaTO1hemygXg3yZ" dataName="TypeOfGood" dataKind="designDataKind"/>
-      </action>
-      <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="The credit should be "/>
-        <stepElements xsi:type="yest:StepField" id="eSG0nXSVLHq4Giahccrjh4YXstB5Kjq1" dataName="CreditValidity" dataKind="designDataKind"/>
-      </expectedResult>
-    </highLevelStep>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="On the left side of the screen, enter the following data:"/>
-      </action>
-      <expectedResult/>
-    </lowLevelSteps>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Amount: "/>
-        <stepElements xsi:type="yest:StepField" id="IA2snHGJaZniwwZ63Vbi8vCAABn9dKzx" dataName="Amount" dataKind="designDataKind"/>
-      </action>
-      <expectedResult/>
-    </lowLevelSteps>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Duration:"/>
-      </action>
-      <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="Check the entered duration"/>
-      </expectedResult>
-    </lowLevelSteps>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Type of good: "/>
-        <stepElements xsi:type="yest:StepField" id="oELtYoQM4Le2XCMnaLvsBJZxn8i37dB4" dataName="TypeOfGood" dataKind="designDataKind"/>
-      </action>
-      <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="Check the entered type"/>
-      </expectedResult>
-    </lowLevelSteps>
-    <lowLevelSteps>
-      <action>
-        <stepElements xsi:type="yest:StepText" content="Clic on the 'Check Credit' button"/>
-      </action>
-      <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="The displayed message should be "/>
-        <stepElements xsi:type="yest:StepField" id="BFVQI22pP5T6V4jOTDOBPY1fAJptsIIT" dataName="CreditValidity" dataKind="designDataKind"/>
-      </expectedResult>
-    </lowLevelSteps>
-  </testElements>
   <dataDictionary name="#dictionary" id="PGyUuRfbpbXadCAoojd6F093I6AynzEU">
     <datas name="Occupation" id="7a5c364ea5252f8bfbd6cbd7c9765550"/>
     <datas name="CustomerValidity" id="4ef58664c137a6594a06581a18afff69"/>
@@ -1629,7 +1547,7 @@
         <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
         <values value="iPhone" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
         <values value="27" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
       <dataSets name="Hair dryer" id="423954ae559ce6cc3d00773b0346a656-1221169658">
         <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
@@ -1673,30 +1591,6 @@
         <values value="24" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
         <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
-      <dataSets name="Samsung" id="74VdUJxoDYfIUycNlRZPbEcgsW2R0RiY">
-        <values value="Any" dataReference="//@dataSetCatalog/@dataReferences.0"/>
-        <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
-        <values value="Samsung" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
-        <values value="18" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-    </dataSetCollections>
-    <dataSetCollections name="Browsers" id="b26caef71b08c9fb89a2a953c93646d9">
-      <dataSets name="Chrome" id="b26caef71b08c9fb89a2a953c93646d9-2017705626">
-        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Safari" id="b26caef71b08c9fb89a2a953c93646d9--1826030688">
-        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Internet Explorer" id="b26caef71b08c9fb89a2a953c93646d9--827740610">
-        <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Firefox" id="b26caef71b08c9fb89a2a953c93646d9-815200953">
-        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Edge" id="xYduUsFeraeWmDNax4UOrK0t0JrDkXca">
-        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
     </dataSetCollections>
     <dataSetCollections name="Customer Set" id="191d1d4ccd4a46666f8480f459043a4a">
       <dataSets name="John Smith" id="191d1d4ccd4a46666f8480f459043a4a-279862446">
@@ -1735,17 +1629,28 @@
         <values value="John Vick" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
         <values value="01/01/1990" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
-      <dataSets name="Derek Page" id="bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex">
-        <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+      <dataSets name="Derek" id="bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex">
+        <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
         <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="Derek Page" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="Derek" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
         <values value="12/12/1985" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
-      <dataSets name="Have Time" id="oNNmleKAOmEgco22g801KswW3mwvOz6M">
-        <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Other occupation" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="Have Time" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
-        <values value="13/13/2099" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+    </dataSetCollections>
+    <dataSetCollections name="Browsers" id="b26caef71b08c9fb89a2a953c93646d9">
+      <dataSets name="Chrome" id="b26caef71b08c9fb89a2a953c93646d9-2017705626">
+        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Safari" id="b26caef71b08c9fb89a2a953c93646d9--1826030688">
+        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Internet Explorer" id="b26caef71b08c9fb89a2a953c93646d9--827740610">
+        <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Firefox" id="b26caef71b08c9fb89a2a953c93646d9-815200953">
+        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Edge" id="xYduUsFeraeWmDNax4UOrK0t0JrDkXca">
+        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
     </dataSetCollections>
     <dataReferences xsi:type="yest:DesignData" dataName="Duration"/>
