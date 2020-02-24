@@ -1009,7 +1009,7 @@
       <fonts name="Segoe UI" size="9"/>
     </diagram>
   </testElements>
-  <testElements xsi:type="yest:TestCampaign" id="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="TestCampaign" folders="c788bf9f0187665edb1f2570a0dd569f" dataSetCollections="423954ae559ce6cc3d00773b0346a656 191d1d4ccd4a46666f8480f459043a4a b26caef71b08c9fb89a2a953c93646d9">
+  <testElements xsi:type="yest:TestCampaign" id="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="TestCampaign" folders="c788bf9f0187665edb1f2570a0dd569f" dataSetCollections="191d1d4ccd4a46666f8480f459043a4a b26caef71b08c9fb89a2a953c93646d9 423954ae559ce6cc3d00773b0346a656">
     <metadata key="PublisherId" value="e77961a6-a88e-4e63-80a5-20c897c5641d"/>
   </testElements>
   <testElements xsi:type="yest:PublisherConfiguration" id="NQyh2O4PjrRKtmKirR8gMnwqPWDdkKSz" campaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="PublicationExcel" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor">
@@ -1541,64 +1541,6 @@
     <datas name="Age" id="24dbaed7048093047169c9cd3b5f8931"/>
   </dataDictionary>
   <dataSetCatalog name="#catalog" id="q3wSJCLDp2LIkgqXpqFMRAIzqlYwFmg6">
-    <dataSetCollections name="Credit Set" id="423954ae559ce6cc3d00773b0346a656">
-      <dataSets name="iPhone" id="423954ae559ce6cc3d00773b0346a656--1211816315">
-        <values value="Any" dataReference="//@dataSetCatalog/@dataReferences.0"/>
-        <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
-        <values value="iPhone" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
-        <values value="27" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Hair dryer" id="423954ae559ce6cc3d00773b0346a656-1221169658">
-        <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
-        <values value="Appliance" dataReference="//@dataSetCatalog/@dataReferences.1"/>
-        <values value="Hair dryer" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
-        <values value="10" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="MicroWave" id="423954ae559ce6cc3d00773b0346a656-1908892605">
-        <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
-        <values value="Appliance" dataReference="//@dataSetCatalog/@dataReferences.1"/>
-        <values value="MicroWave" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
-        <values value="24" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Washing Machine" id="423954ae559ce6cc3d00773b0346a656--1525306934">
-        <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
-        <values value="Appliance" dataReference="//@dataSetCatalog/@dataReferences.1"/>
-        <values value="Washing Machine" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
-        <values value="36" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="MP3 Player" id="423954ae559ce6cc3d00773b0346a656--1396664783">
-        <values value="Any" dataReference="//@dataSetCatalog/@dataReferences.0"/>
-        <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
-        <values value="MP3 Player" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
-        <values value="6" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Camera" id="423954ae559ce6cc3d00773b0346a656-2011082565">
-        <values value="Between 6 and 24 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
-        <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
-        <values value="Camera" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
-        <values value="12" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Home cinema" id="423954ae559ce6cc3d00773b0346a656-886482226">
-        <values value="Between 6 and 24 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
-        <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
-        <values value="Home cinema" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
-        <values value="24" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-      <dataSets name="Home cinema2" id="8Uxzlt8AHG1tRZiH4YZd2mvLAychsggw">
-        <values value="Between 6 and 24 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
-        <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
-        <values value="Home cinema" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
-        <values value="24" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
-        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
-      </dataSets>
-    </dataSetCollections>
     <dataSetCollections name="Customer Set" id="191d1d4ccd4a46666f8480f459043a4a">
       <dataSets name="John Smith" id="191d1d4ccd4a46666f8480f459043a4a-279862446">
         <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
@@ -1652,6 +1594,64 @@
       </dataSets>
       <dataSets name="Edge" id="xYduUsFeraeWmDNax4UOrK0t0JrDkXca">
         <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+    </dataSetCollections>
+    <dataSetCollections name="Credit Set" id="423954ae559ce6cc3d00773b0346a656">
+      <dataSets name="iPhone" id="423954ae559ce6cc3d00773b0346a656--1211816315">
+        <values value="Any" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="iPhone" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="27" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Hair dryer" id="423954ae559ce6cc3d00773b0346a656-1221169658">
+        <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Appliance" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="Hair dryer" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="10" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="MicroWave" id="423954ae559ce6cc3d00773b0346a656-1908892605">
+        <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Appliance" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="MicroWave" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="24" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Washing Machine" id="423954ae559ce6cc3d00773b0346a656--1525306934">
+        <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Appliance" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="Washing Machine" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="36" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="MP3 Player" id="423954ae559ce6cc3d00773b0346a656--1396664783">
+        <values value="Any" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="MP3 Player" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="6" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Camera" id="423954ae559ce6cc3d00773b0346a656-2011082565">
+        <values value="Between 6 and 24 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="Camera" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="12" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Home cinema" id="423954ae559ce6cc3d00773b0346a656-886482226">
+        <values value="Between 6 and 24 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="Home cinema" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="24" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Edge" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Samsung" id="Fzax494Ro81R6Gx6q60e6cj3bKZAFuqW">
+        <values value="Between 6 and 24 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="Samsung" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="81" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
       </dataSets>
     </dataSetCollections>
     <dataReferences xsi:type="yest:DesignData" dataName="Duration"/>
