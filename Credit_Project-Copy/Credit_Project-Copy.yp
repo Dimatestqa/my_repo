@@ -139,7 +139,7 @@
             <value xsi:type="yest:StringCell" value="Phone"/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
-            <value xsi:type="yest:StringCell" value=""/>
+            <value xsi:type="yest:StringCell" value="Between 6 and 24 months"/>
           </cells>
           <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
             <value xsi:type="yest:StringCell" value="Invalid"/>
@@ -1465,13 +1465,27 @@
         <value definition="1" id="cEyMzY7qpsO83vBgUpTAO6jqMWWPuzUN"/>
       </stepFieldValues>
       <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
-        <value definition="Any" id="xIHyQ0lBpNaCx7FkYPc5vbeT38bWJJms"/>
+        <value definition="Between 6 and 24 months" id="WqSQmNFojWlcl4htiFq7SDCra9AvQqWY"/>
       </stepFieldValues>
       <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
         <value definition="Phone" id="nCB7Yy7nSGVSlmaVZgnDa4w7z4WLwGUo"/>
       </stepFieldValues>
       <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
         <value definition="Invalid" id="6cO28J0dEra9rb98LxLwqQXSx4Fiw6Ae"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="s99zDofW2wZMr2P1QrpNNPGYKN5ZcAiN" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="1" id="c2OLw8phjcXfMhdXffZxntYbDEiCvJ0t"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Any" id="SeDsIZMI0rPleikCOhqBCagmxKYP4Noq"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Phone" id="SIs9PId1ZL3Vz8RaQ9xahTQ3YCyzWzck"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Invalid" id="g217fobGt2mR5l3OzSRnoCY54z1QdEGX"/>
       </stepFieldValues>
     </testActions>
     <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw"/>
