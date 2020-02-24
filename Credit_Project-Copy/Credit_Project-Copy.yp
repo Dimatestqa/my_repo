@@ -1651,18 +1651,6 @@
         <values value="John Vick" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
         <values value="01/01/1990" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
       </dataSets>
-      <dataSets name="Derek" id="bcZ6iaEVNyD2go9KrWeNJwAf6dXiDqex">
-        <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="Derek Цукусл" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
-        <values value="12/12/1985" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
-      </dataSets>
-      <dataSets name="Alibaba" id="cUdtP2TfXyjKJcAgmpnmZZFyXS4jRq3R">
-        <values value="Higher than 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
-        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
-        <values value="Alibaba" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
-        <values value="01/01/1900" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
-      </dataSets>
     </dataSetCollections>
     <dataSetCollections name="Browsers" id="b26caef71b08c9fb89a2a953c93646d9">
       <dataSets name="Chrome" id="b26caef71b08c9fb89a2a953c93646d9-2017705626">
