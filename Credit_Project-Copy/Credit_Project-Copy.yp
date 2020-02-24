@@ -1,0 +1,1561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yest:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:yest="http://www.smartesting.com/yest/metamodel" name="Credit_Project-Copy" id="c788bf9f0187665edb1f2570a0dd569f">
+  <metadata key="ProjectVersion" value="9"/>
+  <metadata key="ApplicationVersion" value="2.3.2"/>
+  <testElements xsi:type="yest:Workflow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE" name="Credit">
+    <flowElements xsi:type="yest:StartPoint" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--1704595256-109757538" name="start" outgoings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-7"/>
+    <flowElements xsi:type="yest:Task" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713" name="Check credit data" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-7" outgoings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767 sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-0">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368" dataName="Amount"/>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0" dataName="Amount"/>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750" dataName="TypeOfGood"/>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268" dataName="Duration"/>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986" type="SET" dataName="CreditValidity"/>
+        <columns xsi:type="yest:OperationColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101"/>
+        <columns xsi:type="yest:OutcomeColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974"/>
+        <columns xsi:type="yest:CriterionColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299-222376054" criterionType="#objective"/>
+        <columns xsi:type="yest:CriterionColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299--1100816956" criterionType="Risk"/>
+        <columns xsi:type="yest:CriterionColumn" id="M61mCqQ1gbxiDNIvMBdzcD0i4t70Oc0b" criterionType="#requirement"/>
+        <columns xsi:type="yest:CriterionColumn" id="U3dLodAWNfuKYd7fwYfuNr6ZCIbmb2tl" criterionType="US"/>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-2048725308-575030598--1720195902-2024566832-657432064--2012531614-292738086--2012531614-1330748565-1711037985">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
+            <value xsi:type="yest:StringCell" value="Valid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
+            <value xsi:type="yest:StringCell" value="Between 6 and 24 months"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
+            <value xsi:type="yest:StringCell" value="&lt; 2000"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0">
+            <value xsi:type="yest:StringCell" value="> 200"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750">
+            <value xsi:type="yest:StringCell" value="Video, sound"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299--1100816956">
+            <value xsi:type="yest:StringCell" value="High"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value="Valid Video sound"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw"/>
+            </value>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974">
+            <value xsi:type="yest:StringCell" value="->Existing customer ?"/>
+          </cells>
+          <cells key="M61mCqQ1gbxiDNIvMBdzcD0i4t70Oc0b">
+            <value xsi:type="yest:StringCell" value="CRED-HIFI"/>
+          </cells>
+          <cells key="U3dLodAWNfuKYd7fwYfuNr6ZCIbmb2tl">
+            <value xsi:type="yest:StringCell" value="http://linuxjira:8081/browse/CREDEN-2"/>
+          </cells>
+        </decisions>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-2048725308--10118434--1720106529-2024569715--600160531--2012531614--748527703-2013475488-1330748565-1711037985">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
+            <value xsi:type="yest:StringCell" value="Valid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
+            <value xsi:type="yest:StringCell" value="Between 10 and 36 months"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
+            <value xsi:type="yest:StringCell" value="&lt; 5000"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0">
+            <value xsi:type="yest:StringCell" value="> 500"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750">
+            <value xsi:type="yest:StringCell" value="Appliance"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299--1100816956">
+            <value xsi:type="yest:StringCell" value="Medium"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value="Valid Appliance"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw"/>
+            </value>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974">
+            <value xsi:type="yest:StringCell" value="->Existing customer ?"/>
+          </cells>
+          <cells key="M61mCqQ1gbxiDNIvMBdzcD0i4t70Oc0b">
+            <value xsi:type="yest:StringCell" value="CRED-APPLIANCE"/>
+          </cells>
+          <cells key="U3dLodAWNfuKYd7fwYfuNr6ZCIbmb2tl">
+            <value xsi:type="yest:StringCell" value="http://linuxjira:8081/browse/CREDEN-3"/>
+          </cells>
+        </decisions>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--836426953--64926932-2013475488--64932306-2043395758--1168230859-759320560-2013475488-1330748565--2139686396">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1776940693-81986">
+            <value xsi:type="yest:StringCell" value="Invalid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774--1927368268">
+            <value xsi:type="yest:StringCell" value="Any"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368">
+            <value xsi:type="yest:StringCell" value=""/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-1964981368-0">
+            <value xsi:type="yest:StringCell" value="> 0"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1565192774-442024750">
+            <value xsi:type="yest:StringCell" value="Phone"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299--1100816956">
+            <value xsi:type="yest:StringCell" value="Low"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value="Invalid Credit phone"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw"/>
+            </value>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713-301812974">
+            <value xsi:type="yest:StringCell" value="->Not Eligible Credit"/>
+          </cells>
+          <cells key="M61mCqQ1gbxiDNIvMBdzcD0i4t70Oc0b">
+            <value xsi:type="yest:StringCell" value="CRED-INVALID"/>
+          </cells>
+          <cells key="U3dLodAWNfuKYd7fwYfuNr6ZCIbmb2tl">
+            <value xsi:type="yest:StringCell" value="http://linuxjira:8081/browse/CREDEN-4"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:EndPoint" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223-1182610933" name="Not Eligible Credit" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767" name="" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223-1182610933" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713"/>
+    <flowElements xsi:type="yest:Task" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948" name="Check customer data" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-88775 sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-1" outgoings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-2">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774-65759-0" dataName="Age"/>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774--686144149" dataName="Occupation"/>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774-1987223888-81986" type="SET" dataName="CustomerValidity"/>
+        <columns xsi:type="yest:OperationColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--765975101"/>
+        <columns xsi:type="yest:CriterionColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1808135299-222376054" criterionType="#objective"/>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948-410246510-2048725308--2012901401--2012960798-410246510-118175566">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774--686144149">
+            <value xsi:type="yest:StringCell" value="Employee"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774-1987223888-81986">
+            <value xsi:type="yest:StringCell" value="Valid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774-65759-0">
+            <value xsi:type="yest:StringCell" value="Between 16 and 70"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value="Employee"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--380390533--836426953--2012960927--2012901407--27086286-118175566">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774--686144149">
+            <value xsi:type="yest:StringCell" value="Student"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774-1987223888-81986">
+            <value xsi:type="yest:StringCell" value="Invalid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774-65759-0">
+            <value xsi:type="yest:StringCell" value="Between 16 and 30"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value="Invalid Student"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1698093847--836426953--2012901252-2022718860--1344789600-118175566">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774--686144149">
+            <value xsi:type="yest:StringCell" value="Retired"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774-1987223888-81986">
+            <value xsi:type="yest:StringCell" value="Invalid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774-65759-0">
+            <value xsi:type="yest:StringCell" value="Higher than 60"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value="Invalid Retired"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3"/>
+            </value>
+          </cells>
+        </decisions>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948-1119842075--836426953--2012901221-2022718860-2083393092-118175566">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774--686144149">
+            <value xsi:type="yest:StringCell" value="Other occupation"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774-1987223888-81986">
+            <value xsi:type="yest:StringCell" value="Invalid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1565192774-65759-0">
+            <value xsi:type="yest:StringCell" value="Higher than 70"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value="Invalid Other occupation"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:ChoicePoint" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018" name="Existing customer ?" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-0" outgoings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-2529 sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-88775">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018--1565192774-105019333" dataName="TypeClient"/>
+        <columns xsi:type="yest:OutcomeColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018-301812974"/>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018--64914720--1321509108">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018--1565192774-105019333">
+            <value xsi:type="yest:StringCell" value="New"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018-301812974">
+            <value xsi:type="yest:StringCell" value="Existing customer ?->No->Customer Creation"/>
+          </cells>
+        </decisions>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018-1389046859--1977273505">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018--1565192774-105019333">
+            <value xsi:type="yest:StringCell" value="Existing"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018-301812974">
+            <value xsi:type="yest:StringCell" value="Existing customer ?->Yes->Check customer data"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-0" name="" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713"/>
+    <flowElements xsi:type="yest:CallActivity" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1508687751-461073633" name="Customer Creation" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-2529" outgoings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-1" subWorkflow="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-2529" name="No" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1508687751-461073633" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-88775" name="Yes" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-1" name="" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1508687751-461073633"/>
+    <flowElements xsi:type="yest:ChoicePoint" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134" name="Eligible customer ?" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-2" outgoings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-3 sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-4">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134--1565192774-1987223888" dataName="CustomerValidity"/>
+        <columns xsi:type="yest:OutcomeColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134-301812974"/>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134--836426953--230632439">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134--1565192774-1987223888">
+            <value xsi:type="yest:StringCell" value="Invalid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134-301812974">
+            <value xsi:type="yest:StringCell" value="->Not Eligible customer"/>
+          </cells>
+        </decisions>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134-2048725308-1427110203">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134--1565192774-1987223888">
+            <value xsi:type="yest:StringCell" value="Valid"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134-301812974">
+            <value xsi:type="yest:StringCell" value="->Contract Signature"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-2" name="" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948"/>
+    <flowElements xsi:type="yest:EndPoint" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223-1336399802" name="Not Eligible customer" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-3"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-3" name="" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223-1336399802" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134"/>
+    <flowElements xsi:type="yest:Task" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1236665558" name="Contract Signature" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-4" outgoings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-5">
+      <table>
+        <columns xsi:type="yest:OperationColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1236665558--765975101"/>
+        <decisions id="I6dtEqUsunXGYrEXDiO4ZkIhnE4HpFFa">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1236665558--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="tzyXnkFWDcd2X1DSgDSbQErYk8WLxDD8"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-4" name="" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1236665558" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134"/>
+    <flowElements xsi:type="yest:Task" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1667240959" name="Record Contract" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-5" outgoings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-6">
+      <table>
+        <columns xsi:type="yest:OperationColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1667240959--765975101"/>
+        <columns xsi:type="yest:CriterionColumn" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1667240959--1808135299-222376054" criterionType="#objective"/>
+        <decisions id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1667240959--719736894--822683729">
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1667240959--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value="Recorded contract"/>
+          </cells>
+          <cells key="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1667240959--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="W9zjv7UqTP1fIcalFqe1dXGYIg7CpwhR"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-5" name="" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1667240959" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1236665558"/>
+    <flowElements xsi:type="yest:EndPoint" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223--15902818" name="Fin nominale" incomings="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-6"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-6" name="" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223--15902818" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1667240959"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-7" name="" target="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713" source="sqM10jCbUwAVWebcKYV55JySXndWUdmE--1704595256-109757538"/>
+    <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Credit" pictogramLinks="//@testElements.0/@diagram/@children.0/@link //@testElements.0/@diagram/@children.1/@link //@testElements.0/@diagram/@children.2/@link //@testElements.0/@diagram/@children.3/@link //@testElements.0/@diagram/@children.4/@link //@testElements.0/@diagram/@children.6/@link //@testElements.0/@diagram/@children.7/@link //@testElements.0/@diagram/@children.9/@link //@testElements.0/@diagram/@children.11/@link //@testElements.0/@diagram/@children.12/@link //@testElements.0/@diagram/@children.13/@link //@testElements.0/@diagram/@connections.0/@link //@testElements.0/@diagram/@connections.1/@link //@testElements.0/@diagram/@connections.2/@link //@testElements.0/@diagram/@connections.3/@link //@testElements.0/@diagram/@connections.4/@link //@testElements.0/@diagram/@connections.5/@link //@testElements.0/@diagram/@connections.6/@link //@testElements.0/@diagram/@connections.7/@link //@testElements.0/@diagram/@connections.8/@link //@testElements.0/@diagram/@connections.9/@link //@testElements.0/@diagram/@connections.10/@link" version="0.13.0">
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@testElements.0/@diagram/@colors.1" foreground="//@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+      <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE--1704595256-109757538" labelShape="//@testElements.0/@diagram/@children.15">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="237" y="49" style="//@testElements.0/@diagram/@styles.0"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--1704595256-109757538"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.10"/>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="163" height="80" x="171" y="142" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-494054713"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.0 //@testElements.0/@diagram/@connections.1" incomingConnections="//@testElements.0/@diagram/@connections.10"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="149" height="66" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Check credit data"/>
+        </children>
+      </children>
+      <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223-1182610933" labelShape="//@testElements.0/@diagram/@children.16">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="4" transparency="0.0" width="31" height="31" x="531" y="166" style="//@testElements.0/@diagram/@styles.2"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223-1182610933"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.0"/>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.3/@children.0/@graphicsAlgorithm" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="181" height="82" x="162" y="374" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735-74648948"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.5" incomingConnections="//@testElements.0/@diagram/@connections.3 //@testElements.0/@diagram/@connections.4"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="167" height="68" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Check customer data"/>
+        </children>
+      </children>
+      <children xsi:type="yest:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.4/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.4/@children.1/@graphicsAlgorithm" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018" labelShape="//@testElements.0/@diagram/@children.5">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.7" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="232" y="263" style="//@testElements.0/@diagram/@styles.3">
+          <points x="20"/>
+          <points x="40" y="20"/>
+          <points x="20" y="40"/>
+          <points y="20"/>
+          <points x="20"/>
+        </graphicsAlgorithm>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-738368018"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.2 //@testElements.0/@diagram/@connections.3" incomingConnections="//@testElements.0/@diagram/@connections.1"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.7" lineWidth="2">
+            <points x="12" y="12"/>
+            <points x="28" y="28"/>
+          </graphicsAlgorithm>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.7" lineWidth="2">
+            <points x="12" y="28"/>
+            <points x="28" y="12"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.5/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.4">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="228" height="42" x="26" y="285"/>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="228" height="42" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Existing customer ?"/>
+        </children>
+      </children>
+      <children xsi:type="yest:CallActivityShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.6/@children.0/@graphicsAlgorithm" extras="//@testElements.0/@diagram/@children.6/@children.1/@graphicsAlgorithm //@testElements.0/@diagram/@children.6/@children.2/@graphicsAlgorithm //@testElements.0/@diagram/@children.6/@children.3/@graphicsAlgorithm" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1508687751-461073633">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="205" height="71" x="459" y="326" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1508687751-461073633"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.4" incomingConnections="//@testElements.0/@diagram/@connections.2"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="191" height="39" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Customer Creation"/>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2">
+            <points x="93" y="71"/>
+            <points x="93" y="53"/>
+            <points x="111" y="53"/>
+            <points x="111" y="71"/>
+          </graphicsAlgorithm>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2">
+            <points x="95" y="61"/>
+            <points x="109" y="61"/>
+          </graphicsAlgorithm>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2">
+            <points x="101" y="55"/>
+            <points x="101" y="69"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="yest:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.7/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.7/@children.1/@graphicsAlgorithm" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134" labelShape="//@testElements.0/@diagram/@children.8">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.7" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="232" y="508" style="//@testElements.0/@diagram/@styles.3">
+          <points x="20"/>
+          <points x="40" y="20"/>
+          <points x="20" y="40"/>
+          <points y="20"/>
+          <points x="20"/>
+        </graphicsAlgorithm>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE-71881013-1819160134"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.6 //@testElements.0/@diagram/@connections.7" incomingConnections="//@testElements.0/@diagram/@connections.5"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.7" lineWidth="2">
+            <points x="12" y="12"/>
+            <points x="28" y="28"/>
+          </graphicsAlgorithm>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.7" lineWidth="2">
+            <points x="12" y="28"/>
+            <points x="28" y="12"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.8/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.7">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="242" height="42" x="23" y="497"/>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="242" height="42" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Eligible customer ?"/>
+        </children>
+      </children>
+      <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223-1336399802" labelShape="//@testElements.0/@diagram/@children.10">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="4" transparency="0.0" width="31" height="31" x="531" y="513" style="//@testElements.0/@diagram/@styles.2"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223-1336399802"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.6"/>
+      </children>
+      <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.10/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.9">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="152" height="21" x="567" y="544"/>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="152" height="21" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Not Eligible customer"/>
+        </children>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.11/@children.0/@graphicsAlgorithm" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1236665558">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="226" height="56" x="140" y="608" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1236665558"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.8" incomingConnections="//@testElements.0/@diagram/@connections.7"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="212" height="42" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Contract Signature"/>
+        </children>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.12/@children.0/@graphicsAlgorithm" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1667240959">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="169" height="77" x="168" y="738" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE-629668735--1667240959"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.9" incomingConnections="//@testElements.0/@diagram/@connections.8"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="155" height="63" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Record Contract"/>
+        </children>
+      </children>
+      <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223--15902818" labelShape="//@testElements.0/@diagram/@children.14">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="4" transparency="0.0" width="31" height="31" x="237" y="867" style="//@testElements.0/@diagram/@styles.2"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE-1622042223--15902818"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.9"/>
+      </children>
+      <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.14/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.13">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="134" height="20" x="281" y="873"/>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="134" height="20" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Fin nominale"/>
+        </children>
+      </children>
+      <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.15/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.0">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="50" height="21" x="182" y="49"/>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="50" height="21" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="start"/>
+        </children>
+      </children>
+      <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.16/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.2">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="42" x="543" y="191"/>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="200" height="42" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Not Eligible Credit"/>
+        </children>
+      </children>
+      <styles id="shape-bg-gray-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-gray-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="219" green="219" blue="219"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="219" green="219" blue="219"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="219" green="219" blue="219"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="219" green="219" blue="219"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="219" green="219" blue="219"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-blue-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-red-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-red-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="120" blue="111"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="120" blue="111"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="120" blue="111"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="120" blue="111"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="120" blue="111"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-yellow-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-yellow-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="247" blue="92"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="247" blue="92"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="247" blue="92"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="255" green="247" blue="92"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="247" blue="92"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-blue-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-blue-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-blue-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <styles id="shape-bg-blue-id">
+        <renderingStyle>
+          <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+            <adaptedGradientColoredAreas styleAdaption="0">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="255" green="255" blue="255"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="1">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+            <adaptedGradientColoredAreas styleAdaption="2">
+              <gradientColor>
+                <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </start>
+                <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                  <color red="200" green="227" blue="238"/>
+                </end>
+              </gradientColor>
+            </adaptedGradientColoredAreas>
+          </adaptedGradientColoredAreas>
+        </renderingStyle>
+      </styles>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.1/@anchors.0" end="//@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.1/@anchors.0" end="//@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-0">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-0"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.4/@anchors.0" end="//@testElements.0/@diagram/@children.6/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-2529">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-2529"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.2/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="false" transparency="0.0" width="80" height="21" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="No"/>
+        </connectionDecorators>
+        <bendpoints x="560" y="283"/>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.4/@anchors.0" end="//@testElements.0/@diagram/@children.3/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-88775">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-88775"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.3/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="false" transparency="0.0" width="80" height="21" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Yes"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.6/@anchors.0" end="//@testElements.0/@diagram/@children.3/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-1">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-1"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <bendpoints x="560" y="415"/>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.3/@anchors.0" end="//@testElements.0/@diagram/@children.7/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-2">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-2"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.7/@anchors.0" end="//@testElements.0/@diagram/@children.9/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-3">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-3"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.7/@anchors.0" end="//@testElements.0/@diagram/@children.11/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-4">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-4"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.11/@anchors.0" end="//@testElements.0/@diagram/@children.12/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-5">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-5"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.12/@anchors.0" end="//@testElements.0/@diagram/@children.13/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-6">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-6"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.0/@anchors.0" end="//@testElements.0/@diagram/@children.1/@anchors.0" sequenceFlow="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-7">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sqM10jCbUwAVWebcKYV55JySXndWUdmE--391163767-7"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <colors red="227" green="238" blue="249"/>
+      <colors red="255" green="255" blue="255"/>
+      <colors red="191" green="191" blue="191"/>
+      <colors red="51" green="51" blue="51"/>
+      <colors red="174" green="198" blue="207"/>
+      <colors red="255" green="105" blue="97"/>
+      <colors red="192" green="192" blue="192"/>
+      <colors red="250" green="215" blue="80"/>
+      <colors red="250" green="250" blue="250"/>
+      <colors red="220" green="220" blue="220"/>
+      <fonts name="Segoe UI" size="9"/>
+    </diagram>
+  </testElements>
+  <testElements xsi:type="yest:Workflow" id="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1" name="Customer Creation">
+    <flowElements xsi:type="yest:StartPoint" id="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--1704595256" name="" outgoings="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--391163767"/>
+    <flowElements xsi:type="yest:Task" id="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-629668735-396429505" name="Customer creation" incomings="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--391163767" outgoings="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--391163767-0">
+      <table>
+        <columns xsi:type="yest:OperationColumn" id="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-629668735-396429505--765975101"/>
+        <columns xsi:type="yest:CriterionColumn" id="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-629668735-396429505--1808135299-222376054" criterionType="#objective"/>
+        <decisions id="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-629668735-396429505--1984658114--1170502312">
+          <cells key="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-629668735-396429505--1808135299-222376054">
+            <value xsi:type="yest:StringCell" value="New Customer"/>
+          </cells>
+          <cells key="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-629668735-396429505--765975101">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="8WmGFXLIZntGEZ0wWiTCatUDk9dMKAaj"/>
+            </value>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:EndPoint" id="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-1622042223" name="" incomings="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--391163767-0"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--391163767" name="" target="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-629668735-396429505" source="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--1704595256"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--391163767-0" name="" target="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-1622042223" source="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-629668735-396429505"/>
+    <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Customer Creation" pictogramLinks="//@testElements.1/@diagram/@children.0/@link //@testElements.1/@diagram/@children.1/@link //@testElements.1/@diagram/@children.2/@link //@testElements.1/@diagram/@connections.0/@link //@testElements.1/@diagram/@connections.1/@link" version="0.13.0">
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@testElements.1/@diagram/@colors.1" foreground="//@testElements.1/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+      <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--1704595256">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.1/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="547" y="70" style="//@testElements.0/@diagram/@styles.0"/>
+        <link businessObjects="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--1704595256"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.1/@diagram/@connections.0"/>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.1/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-629668735-396429505">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.1/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="181" height="56" x="472" y="190" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-629668735-396429505"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.1/@diagram/@connections.1" incomingConnections="//@testElements.1/@diagram/@connections.0"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.1/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="167" height="42" x="7" y="7" font="//@testElements.1/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Customer creation"/>
+        </children>
+      </children>
+      <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-1622042223">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.1/@diagram/@colors.5" lineWidth="4" transparency="0.0" width="31" height="31" x="547" y="347" style="//@testElements.0/@diagram/@styles.2"/>
+        <link businessObjects="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1-1622042223"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.1/@diagram/@connections.1"/>
+      </children>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.1/@diagram/@children.0/@anchors.0" end="//@testElements.1/@diagram/@children.1/@anchors.0" sequenceFlow="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--391163767">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.1/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--391163767"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.1/@diagram/@colors.3" foreground="//@testElements.1/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.1/@diagram/@children.1/@anchors.0" end="//@testElements.1/@diagram/@children.2/@anchors.0" sequenceFlow="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--391163767-0">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.1/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="C21ZkhBrte5de8ovxYG3DdNe0WZHMBZ1--391163767-0"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.1/@diagram/@colors.3" foreground="//@testElements.1/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <colors red="227" green="238" blue="249"/>
+      <colors red="255" green="255" blue="255"/>
+      <colors red="191" green="191" blue="191"/>
+      <colors red="51" green="51" blue="51"/>
+      <colors red="174" green="198" blue="207"/>
+      <colors red="255" green="105" blue="97"/>
+      <fonts name="Segoe UI" size="9"/>
+    </diagram>
+  </testElements>
+  <testElements xsi:type="yest:TestCampaign" id="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="TestCampaign" folders="c788bf9f0187665edb1f2570a0dd569f" dataSetCollections="423954ae559ce6cc3d00773b0346a656 b26caef71b08c9fb89a2a953c93646d9 191d1d4ccd4a46666f8480f459043a4a">
+    <metadata key="PublisherId" value="e77961a6-a88e-4e63-80a5-20c897c5641d"/>
+  </testElements>
+  <testElements xsi:type="yest:PublisherConfiguration" id="NQyh2O4PjrRKtmKirR8gMnwqPWDdkKSz" campaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="PublicationExcel" publisherId="com.smartesting.publishers.excel.ExcelPublisherEditor">
+    <parameters name="descriptionLevel" value="LowLevelDescriptionKind"/>
+    <parameters name="additionalColumns" value="#objective"/>
+    <parameters name="additionalRows" value="{&quot;rows&quot;:[&quot;#requirement&quot;]}"/>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="W9zjv7UqTP1fIcalFqe1dXGYIg7CpwhR">
+    <metadata key="PublisherId" value="422ce63a-28bc-4515-821d-a87e943e5779"/>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Record contract"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="The contract should be correctly recorded"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+    <metadata key="PublisherId" value="a5214d9d-4554-4a54-9e0b-87bf83f3c191"/>
+    <prerequisite>
+      <stepElements xsi:type="yest:StepText" content="Customer details : age "/>
+      <stepElements xsi:type="yest:StepField" id="jdLGZmMzXZKrzaVXwfnwbxVUCTeInaF6" dataName="Age" dataKind="designDataKind"/>
+      <stepElements xsi:type="yest:StepText" content=" years, occupation "/>
+      <stepElements xsi:type="yest:StepField" id="u3f9GXDLPAxmGXbSe0DGyreiHwXT2ixK" dataName="Occupation" dataKind="designDataKind"/>
+    </prerequisite>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Check customer data :&#xD;&#xA;Age : "/>
+        <stepElements xsi:type="yest:StepField" id="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc" dataName="Age" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Occupation : "/>
+        <stepElements xsi:type="yest:StepField" id="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr" dataName="Occupation" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Check customer is: "/>
+        <stepElements xsi:type="yest:StepField" id="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg" dataName="CustomerValidity" dataKind="designDataKind"/>
+      </expectedResult>
+    </highLevelStep>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="On the right side of the screen, enter the following data:"/>
+      </action>
+      <expectedResult/>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Age: "/>
+        <stepElements xsi:type="yest:StepField" id="tYP0IoThkJM1mCvEXmYCf4ZdEK10vV7Y" dataName="Age" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content=" years"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Check that the date of birth matches for a "/>
+        <stepElements xsi:type="yest:StepField" id="Ijq8B8AMlemgSx42JifD5Tc4uqvXc4LN" dataName="Age" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content=" years old customer"/>
+      </expectedResult>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Occupation: "/>
+        <stepElements xsi:type="yest:StepField" id="4O0SxJTGXcQfRzEy5YktKf74TnsertBJ" dataName="Occupation" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Check the entered occupation"/>
+      </expectedResult>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Click on the 'Check Customer' button"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="The customer should be declared as "/>
+        <stepElements xsi:type="yest:StepField" id="fUS0CcpKT9xiKw8TNgxqqtbWdtl2JIpv" dataName="CustomerValidity" dataKind="designDataKind"/>
+      </expectedResult>
+    </lowLevelSteps>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="tzyXnkFWDcd2X1DSgDSbQErYk8WLxDD8">
+    <metadata key="PublisherId" value="fca87e47-1748-4beb-b525-e4282a9a94e1"/>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Contract signature"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="8WmGFXLIZntGEZ0wWiTCatUDk9dMKAaj">
+    <metadata key="PublisherId" value="81ca7190-047f-4d72-8055-5f6fa4770c95"/>
+    <prerequisite>
+      <stepElements xsi:type="yest:StepText" content="New Customer"/>
+    </prerequisite>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Create customer"/>
+      </action>
+      <expectedResult/>
+    </highLevelStep>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Click on the 'Create New Customer' button"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="A new customer with empty data should be displayed"/>
+      </expectedResult>
+    </lowLevelSteps>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+    <metadata key="PublisherId" value="5752ae7b-50ef-47d3-888d-6376f32e8f2a"/>
+    <prerequisite>
+      <stepElements xsi:type="yest:StepText" content="The type of good "/>
+      <stepElements xsi:type="yest:StepField" id="ji4FN8EVfd0GHtQcj0OdqTe0BqzPnbGm" dataName="TypeOfGood" dataKind="designDataKind"/>
+      <stepElements xsi:type="yest:StepText" content=" must be registrered as a valid type of good"/>
+    </prerequisite>
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Check Credit Data:&#xD;&#xA;Amount : "/>
+        <stepElements xsi:type="yest:StepField" id="ra93FDri6igz1yWdsluqDmqkyarOisrE" dataName="Amount" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Duration : "/>
+        <stepElements xsi:type="yest:StepField" id="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4" dataName="Duration" dataKind="designDataKind"/>
+        <stepElements xsi:type="yest:StepText" content="&#xD;&#xA;Type of good : "/>
+        <stepElements xsi:type="yest:StepField" id="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo" dataName="TypeOfGood" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="The credit should be "/>
+        <stepElements xsi:type="yest:StepField" id="yus7l40NbmmjUFdsx57EmDMwBTLUX64p" dataName="CreditValidity" dataKind="designDataKind"/>
+      </expectedResult>
+    </highLevelStep>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="On the left side of the screen, enter the following data:"/>
+      </action>
+      <expectedResult/>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Amount: "/>
+        <stepElements xsi:type="yest:StepField" id="ZR9XPF1409NiAvDvkZLTZyhFtSRb7Ja2" dataName="Amount" dataKind="designDataKind"/>
+      </action>
+      <expectedResult/>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Duration: "/>
+        <stepElements xsi:type="yest:StepField" id="IO8ZkzmsLoGUPt7AeYAG8r4k1SdjKDua" dataName="Duration" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Check the entered duration"/>
+      </expectedResult>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Type of good: "/>
+        <stepElements xsi:type="yest:StepField" id="feUTCcjAn2Yfz2nFTnd7l6KRtc1A50hs" dataName="TypeOfGood" dataKind="designDataKind"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Check the entered type"/>
+      </expectedResult>
+    </lowLevelSteps>
+    <lowLevelSteps>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Clic on the 'Check Credit' button"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="The displayed message should be "/>
+        <stepElements xsi:type="yest:StepField" id="uC4W56v7dlcgTyuMlWAdZc0Q0bL1NcNN" dataName="CreditValidity" dataKind="designDataKind"/>
+      </expectedResult>
+    </lowLevelSteps>
+  </testElements>
+  <testElements xsi:type="yest:AutomationConfiguration" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87" campaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw" name="PublicationJava Selenium" publisherId="com.smartesting.publishers.javaselenium.JavaSeleniumEditor">
+    <parameters name="DictionaryFile" value="#project#/Dico.xlsx"/>
+    <parameters name="DestinationPackageName" value="com.smt"/>
+    <operationScripts testOperation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <after/>
+      <body>
+        <calls keywordId="selectTypeOfGood" keywordName="selectTypeOfGood" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--285965777-3029410--1224282838">
+          <arguments parameterName="&quot;type&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="2baNwAa0hEbtrjtglP1wtBde2hyPbla3" dataName="TypeOfGood" dataKind="designDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+        <calls keywordId="enterText" keywordName="enterText" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--285965777-3029410--858024923">
+          <arguments parameterName="&quot;label&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepText" content="Product"/>
+            </parameterValue>
+          </arguments>
+          <arguments parameterName="&quot;text&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="BQHIL4KN9t9WOmzNyalPEyAFzYzS5fgj" dataName="Product" dataKind="implementationDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+        <calls keywordId="enterText" keywordName="enterText" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--285965777-3029410--858024923-0">
+          <arguments parameterName="&quot;label&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepText" content="Amount"/>
+            </parameterValue>
+          </arguments>
+          <arguments parameterName="&quot;text&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="OL80McHZmSVBkKpunvxzNnSAL9VNvAlC" dataName="Amount" dataKind="designDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+        <calls keywordId="enterText" keywordName="enterText" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--285965777-3029410--858024923-1">
+          <arguments parameterName="&quot;label&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepText" content="Duration"/>
+            </parameterValue>
+          </arguments>
+          <arguments parameterName="&quot;text&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="BuPmuhqk111gbtyt7WGWUyOVZOI4OyJa" dataName="Month_Duration" dataKind="implementationDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+        <calls keywordId="checkCreditValidity" keywordName="checkCreditValidity" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--285965777-3029410--1755283341">
+          <arguments parameterName="&quot;validity&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="je6PzfiBYebFnO3f3jpYBj0gzsArFpbo" dataName="CreditValidity" dataKind="designDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+      </body>
+      <before/>
+    </operationScripts>
+    <operationScripts testOperation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+      <after/>
+      <body>
+        <calls keywordId="enterText" keywordName="enterText" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--1314277328-3029410--858024923">
+          <arguments parameterName="&quot;label&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepText" content="Name"/>
+            </parameterValue>
+          </arguments>
+          <arguments parameterName="&quot;text&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="kE6LsriE80GBL7ZU5K9iEabmGu2sW63x" dataName="Name" dataKind="implementationDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+        <calls keywordId="enterDateOfBirth" keywordName="enterDateOfBirth" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--1314277328-3029410--965003358">
+          <arguments parameterName="date">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="KbEFHtwq98CFw8mN3JtSXxf7y6xsA9ay" dataName="DateOfBirth" dataKind="implementationDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+        <calls keywordId="checkCustomerValidity" keywordName="checkCustomerValidity" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--1314277328-3029410-1325102680">
+          <arguments parameterName="&quot;validity&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="WeuhOdfGqFGCPH6e6JGn8TqkIGSqWZvd" dataName="CustomerValidity" dataKind="designDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+      </body>
+      <before/>
+    </operationScripts>
+    <operationScripts testOperation="tzyXnkFWDcd2X1DSgDSbQErYk8WLxDD8">
+      <after/>
+      <body>
+        <calls keywordId="signContract" keywordName="signContract" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--1310108719-3029410-1738425839">
+          <arguments parameterName="&quot;name&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="ucmEP3B8ftQcC2mIQAgSaU9Isj14aVDi" dataName="Name" dataKind="implementationDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+      </body>
+      <before/>
+    </operationScripts>
+    <operationScripts testOperation="W9zjv7UqTP1fIcalFqe1dXGYIg7CpwhR">
+      <after/>
+      <body>
+        <calls keywordId="storeContract" keywordName="storeContract" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87-1131561981-3029410-1514667283"/>
+      </body>
+      <before/>
+    </operationScripts>
+    <operationScripts testOperation="8WmGFXLIZntGEZ0wWiTCatUDk9dMKAaj">
+      <after/>
+      <body>
+        <calls keywordId="createCustomer" keywordName="createCustomer" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87-1105633540-3029410-1528744186"/>
+        <calls keywordId="enterText" keywordName="enterText" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87-1105633540-3029410--858024923">
+          <arguments parameterName="&quot;label&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepText" content="Name"/>
+            </parameterValue>
+          </arguments>
+          <arguments parameterName="&quot;text&quot;">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="iqvCULg46xu2BSrfLC6gBC5qNsTAGush" dataName="Name" dataKind="implementationDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+        <calls keywordId="enterDateOfBirth" keywordName="enterDateOfBirth" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87-1105633540-3029410--965003358">
+          <arguments parameterName="date">
+            <parameterValue>
+              <stepElements xsi:type="yest:StepField" id="8oaA7Y8klpgCMXzX9tmlvgYqYC3iZS3l" dataName="DateOfBirth" dataKind="implementationDataKind"/>
+            </parameterValue>
+          </arguments>
+        </calls>
+      </body>
+      <before/>
+    </operationScripts>
+    <globalBefore>
+      <calls keywordId="openBrowser" keywordName="openBrowser" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--1160664830--45886082">
+        <arguments parameterName="&quot;browserType&quot;">
+          <parameterValue>
+            <stepElements xsi:type="yest:StepField" id="Y3WHpdvMsdU9fIIn6dSeEbEUiCic1SFo" dataName="BrowserType" dataKind="implementationDataKind"/>
+          </parameterValue>
+        </arguments>
+        <arguments parameterName="&quot;address&quot;">
+          <parameterValue>
+            <stepElements xsi:type="yest:StepText" content="www.credit.com"/>
+          </parameterValue>
+        </arguments>
+      </calls>
+    </globalBefore>
+    <globalAfter>
+      <calls keywordId="closeBrowser" keywordName="closeBrowser" id="Fghnb8fQDPMCN8vsMil9mrzHnYw4Na87--869605383--1194148336"/>
+    </globalAfter>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="NmFu0zGcPlrF7gR7fAjjwHuibU002MsX" name="Valid Video sound-Employee-Recorded contract" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="fcZEfM7OSph4f2lRVMORhibLQBXEC6u9" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="201" id="YLEZE4PMbG4LNRCSE6Dg5lpQoVobqBKL"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Between 6 and 24 months" id="vRMdLibwdbusTxHpQKXN1PDzN0r88td7"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Video, sound" id="rhzR509OJZooifQXq41sjMxmG4eSO2Xk"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Valid" id="bVgmsvX0O02BhchZcxswdORVpGPkPXww"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="RLZtxEva4m8ueIE1iyleah7NmglYhuXg" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
+        <value definition="Between 16 and 70" id="4xrUYF6DSZo5L8nMLtv3P8lVNl8gB0mj"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
+        <value definition="Employee" id="HEX5pNJlMTvUxuH5jqBXdwoBAtxhLbV2"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
+        <value definition="Valid" id="SIeFtaTDaAOFgimVazs43gxQCeHeR4vV"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="QaEEtFYfZALhV9o7NAvbbbhTOe8AlmqW" operation="tzyXnkFWDcd2X1DSgDSbQErYk8WLxDD8"/>
+    <testActions id="EP2Vc8VxmvW8P6YsIrq0chwh7ogJUEuO" operation="W9zjv7UqTP1fIcalFqe1dXGYIg7CpwhR"/>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-2011082565 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-1838005781" id="mqMdNOD75OG1SvEGTCo1QTTy4fKFrV2L"/>
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1396664783 b26caef71b08c9fb89a2a953c93646d9--1826030688 191d1d4ccd4a46666f8480f459043a4a-1838005781" id="cblnUBSapgDmI9qQE8S2q2Ve4JvMrwmg"/>
+    </dataSetCombinations>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="RNyr0QZnVvm59bNdCC3xRnGBx2Pp83lq" name="Valid Appliance-New Customer-Invalid Student" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="XshuTJFxSWFtMxWpU2ww7QYToR1jmk6n" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="501" id="2pDko9NZ8FSm1dVbYc5LcaC8TvvkZgZW"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Between 10 and 36 months" id="t7JAN8wpb7sMCOQGKK8TGGMjNWnRdgZq"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Appliance" id="EAlE3lrBx1DPRTDG79eGu4N6QF0Ewup8"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Valid" id="B9CvNiM4xd2FCHpJ1LPiDdQw56iGB1qB"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="ZHg8ADiXf8m6AMtI13B3y8pqgRVCFEE8" operation="8WmGFXLIZntGEZ0wWiTCatUDk9dMKAaj"/>
+    <testActions id="T0BUgOWcTBJV3RHbv5QLqrzgaX9IZrre" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
+        <value definition="Between 16 and 30" id="Lrj218bOY0qqCEcS0aFad9nXMMm3dNfb"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
+        <value definition="Student" id="qdqhx0NSk9EH7iA3VfjC3HzQfQGaeQ6y"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
+        <value definition="Invalid" id="uPOmczN2xIBUvX0Qn9GYzpRl1SpbpuI9"/>
+      </stepFieldValues>
+    </testActions>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-279862446" id="upWTuvSiCqNETWUqblfFi2XFzOQoH3th"/>
+    </dataSetCombinations>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="SWb1IydxTfDbQv3Z7xIL32hTt1uQlIwX" name="Valid Video sound-New Customer-Invalid Retired" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="P1N1gtALNEE469u5aonImogMA3tnRF6f" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="201" id="5fQaQEwi73x9GDI3eBCHIacy5cfmbkIC"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Between 6 and 24 months" id="O4yZR6ozBAWZ37i9lnWjZhi0vbOxoo19"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Video, sound" id="CIjem1WGDIllIBmmGhfY9okHNYfPHvu2"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Valid" id="34Kl3JPkSdn4EA7B4BM1sFrvVYDqusiL"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="WeD79FsFR79IPf0M00Drl5Xr3nDHpbcN" operation="8WmGFXLIZntGEZ0wWiTCatUDk9dMKAaj"/>
+    <testActions id="cVyJLzw6H7QJ8hiB2mnbWBYOwzBiaybc" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
+        <value definition="Higher than 60" id="rWljMkewCeaXewUPKrPO9aLHk5MxCAZH"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
+        <value definition="Retired" id="zZgQfik4ApYzEY6Rt3liSNJ08uLBBMB7"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
+        <value definition="Invalid" id="MAR0EFS2Dk52EFPACy2ffzClv106fM6i"/>
+      </stepFieldValues>
+    </testActions>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1396664783 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a--43936440" id="kIzrArc7KR3ldlbgeJWYTwlxuDfYfMRG"/>
+    </dataSetCombinations>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="iYdsHCUpJvAuIVhsBQY1CBi52yoa15hK" name="Invalid Credit phone" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="QIhzBcCX3lvPDVqPNivvVveNhwXQ8op8" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="1" id="cEyMzY7qpsO83vBgUpTAO6jqMWWPuzUN"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Any" id="JcIC9u07iiyEpKBGPq7cLvvuU7A91n52"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Phone" id="nCB7Yy7nSGVSlmaVZgnDa4w7z4WLwGUo"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Invalid" id="6cO28J0dEra9rb98LxLwqQXSx4Fiw6Ae"/>
+      </stepFieldValues>
+    </testActions>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656--1211816315 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-279862446" id="ZmXl5VpefAqbzZieiOiKMxVrtUhxeKiz"/>
+    </dataSetCombinations>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="jnbQVMsPV9Pa9rUTPr62W8gQwsCbB7fG" name="Valid Appliance-Invalid Other occupation" associatedWorkflow="sqM10jCbUwAVWebcKYV55JySXndWUdmE">
+    <testActions id="ihvqQMFisgKWapcaeO2oYvbfeROMW7tT" operation="0NWy31xZ3rbo5JBELC4wFniu9nyY3Hdw">
+      <stepFieldValues referencedStepField="ra93FDri6igz1yWdsluqDmqkyarOisrE">
+        <value definition="501" id="WkltbyY4z8erXJSN6ik7tzgv0e9rXShQ"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="PTqAVPGV0T190MIvhI3r96nuxQ8wrCH4">
+        <value definition="Between 10 and 36 months" id="eSE2bLTxO2qg7KPv7CzIrOblOfAum8Xk"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="nejyL06H3peh2Fe2I6PIB0PL6f3QhsYo">
+        <value definition="Appliance" id="PM2FXhKT5RJdx6Z2qw5eHAyMTME7eXjk"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="yus7l40NbmmjUFdsx57EmDMwBTLUX64p">
+        <value definition="Valid" id="pp1LiG03ebOIqvDc0Lnv2yeF9stNbuSt"/>
+      </stepFieldValues>
+    </testActions>
+    <testActions id="4V28N0BWpRrd7yN10aRgLVSAZjcik8Ux" operation="jVlZVDmsVlxlclpGWwtBc8YRIKsPaXm3">
+      <stepFieldValues referencedStepField="NsCgdfsaYlnRTlUDENkKwOuGIIeMSglc">
+        <value definition="Higher than 70" id="rcx0FQ5aecKFfpBvaHQlJTCOJJWwXB4a"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="y985vj3dBPTpAsXOWuXSiwubRJZJqwGr">
+        <value definition="Other occupation" id="9RvYjnSX6UQ3IaP2tn3rKQHyxaeY18se"/>
+      </stepFieldValues>
+      <stepFieldValues referencedStepField="wYbKpz5Qxo38TzDv6ubhD42YmDeizvMg">
+        <value definition="Invalid" id="uopIf94is6T8Jwc5G2n3lfkDzf7MeabD"/>
+      </stepFieldValues>
+    </testActions>
+    <dataSetCombinations testCampaign="Qg2uBzWlYiHN5gh45tF9gak0XHSBKLWw">
+      <combinations dataSets="423954ae559ce6cc3d00773b0346a656-1221169658 b26caef71b08c9fb89a2a953c93646d9-2017705626 191d1d4ccd4a46666f8480f459043a4a-334272752" id="L0pxWmWviIXEh2oNBHKSqxxFJBF0VkOO"/>
+    </dataSetCombinations>
+  </testElements>
+  <dataDictionary name="#dictionary" id="PGyUuRfbpbXadCAoojd6F093I6AynzEU">
+    <datas name="Occupation" id="7a5c364ea5252f8bfbd6cbd7c9765550"/>
+    <datas name="CustomerValidity" id="4ef58664c137a6594a06581a18afff69"/>
+    <datas name="TypeOfGood" id="419af3332ae46987dbe2211cd0e02dc9"/>
+    <datas name="Amount" id="80bed508f6d4fc40439b85eaca9dd9da"/>
+    <datas name="TypeClient" id="2d39e3f1be0a8459ed9fe81baeb56c74"/>
+    <datas name="Duration" id="efae001430e8e0463a52ab4db3c213d4"/>
+    <datas name="CreditValidity" id="ea682e7f00f1781a2fe4339193900ca1"/>
+    <datas name="Age" id="24dbaed7048093047169c9cd3b5f8931"/>
+  </dataDictionary>
+  <dataSetCatalog name="#catalog" id="q3wSJCLDp2LIkgqXpqFMRAIzqlYwFmg6">
+    <dataSetCollections name="Credit Set" id="423954ae559ce6cc3d00773b0346a656">
+      <dataSets name="iPhone" id="423954ae559ce6cc3d00773b0346a656--1211816315">
+        <values value="Any" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Phone" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="iPhone" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="27" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Hair dryer" id="423954ae559ce6cc3d00773b0346a656-1221169658">
+        <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Appliance" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="Hair dryer" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="10" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="MicroWave" id="423954ae559ce6cc3d00773b0346a656-1908892605">
+        <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Appliance" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="MicroWave" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="24" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Washing Machine" id="423954ae559ce6cc3d00773b0346a656--1525306934">
+        <values value="Between 10 and 36 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Appliance" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="Washing Machine" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="36" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="MP3 Player" id="423954ae559ce6cc3d00773b0346a656--1396664783">
+        <values value="Any" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="MP3 Player" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="6" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Camera" id="423954ae559ce6cc3d00773b0346a656-2011082565">
+        <values value="Between 6 and 24 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="Camera" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="12" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Home cinema" id="423954ae559ce6cc3d00773b0346a656-886482226">
+        <values value="Between 6 and 24 months" dataReference="//@dataSetCatalog/@dataReferences.0"/>
+        <values value="Video, sound" dataReference="//@dataSetCatalog/@dataReferences.1"/>
+        <values value="Home cinema" dataReference="ec1bf8084c2b247ecf351963ac095193"/>
+        <values value="24" dataReference="b0c5dc22b81378c210c74d2105c2574e"/>
+        <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+    </dataSetCollections>
+    <dataSetCollections name="Customer Set" id="191d1d4ccd4a46666f8480f459043a4a">
+      <dataSets name="John Smith" id="191d1d4ccd4a46666f8480f459043a4a-279862446">
+        <values value="Between 16 and 30" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Student" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="John Smith" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="12/25/2000" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="Pamela Jones" id="191d1d4ccd4a46666f8480f459043a4a-1838005781">
+        <values value="Between 16 and 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Employee" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Pamela Jones" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="10/10/1967" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="Tyrone Phelps" id="191d1d4ccd4a46666f8480f459043a4a--65565655">
+        <values value="Between 16 and 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Tyrone Phelps" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="05/20/1955" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="Kathleen Sullivan" id="191d1d4ccd4a46666f8480f459043a4a-334272752">
+        <values value="Higher than 70" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Other occupation" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Kathleen Sullivan" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="01/07/1933" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+      <dataSets name="Georg Sanders" id="191d1d4ccd4a46666f8480f459043a4a--43936440">
+        <values value="Higher than 60" dataReference="//@dataSetCatalog/@dataReferences.4"/>
+        <values value="Retired" dataReference="//@dataSetCatalog/@dataReferences.5"/>
+        <values value="Georg Sanders" dataReference="d1644cc1c896feb79ab117d4591db2b0"/>
+        <values value="12/08/1929" dataReference="1436eb397dd4272c17d13938b7f5c25b"/>
+      </dataSets>
+    </dataSetCollections>
+    <dataSetCollections name="Browsers" id="b26caef71b08c9fb89a2a953c93646d9">
+      <dataSets name="Chrome" id="b26caef71b08c9fb89a2a953c93646d9-2017705626">
+        <values value="Chrome" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Safari" id="b26caef71b08c9fb89a2a953c93646d9--1826030688">
+        <values value="Safari" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Internet Explorer" id="b26caef71b08c9fb89a2a953c93646d9--827740610">
+        <values value="Internet Explorer" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+      <dataSets name="Firefox" id="b26caef71b08c9fb89a2a953c93646d9-815200953">
+        <values value="Firefox" dataReference="968876ad42b4cc45bb9186bd724354ea"/>
+      </dataSets>
+    </dataSetCollections>
+    <dataReferences xsi:type="yest:DesignData" dataName="Duration"/>
+    <dataReferences xsi:type="yest:DesignData" dataName="TypeOfGood"/>
+    <dataReferences xsi:type="yest:ImplementationData" dataName="Product" id="ec1bf8084c2b247ecf351963ac095193"/>
+    <dataReferences xsi:type="yest:ImplementationData" dataName="Month_Duration" id="b0c5dc22b81378c210c74d2105c2574e"/>
+    <dataReferences xsi:type="yest:DesignData" dataName="Age"/>
+    <dataReferences xsi:type="yest:DesignData" dataName="Occupation"/>
+    <dataReferences xsi:type="yest:ImplementationData" dataName="Name" id="d1644cc1c896feb79ab117d4591db2b0"/>
+    <dataReferences xsi:type="yest:ImplementationData" dataName="DateOfBirth" id="1436eb397dd4272c17d13938b7f5c25b"/>
+    <dataReferences xsi:type="yest:ImplementationData" dataName="BrowserType" id="968876ad42b4cc45bb9186bd724354ea"/>
+  </dataSetCatalog>
+</yest:Project>
